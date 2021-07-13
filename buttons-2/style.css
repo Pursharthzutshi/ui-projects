@@ -1,0 +1,183 @@
+body{
+    background: linear-gradient(to left,rgb(56, 55, 55),rgb(46, 45, 45),rgb(62, 61, 61));
+    font-family: Montserrat;
+}
+
+.container,.buttons-container,.all-buttons-container{
+    display: flex;
+}
+
+.container{
+    flex-direction: row;
+
+
+}
+
+h2{
+    padding-top: 100px;
+    text-align: center;
+    color:white;
+}
+
+.all-buttons-container{
+    gap:20px;
+    flex-direction: column;
+}
+
+.container{
+    justify-content: center;
+}
+
+.container{
+    padding-top: 70px;
+}
+
+.buttons-container{
+    gap:40px;
+}
+
+.buttons,.buttons-2{
+    color:whitesmoke;
+letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.buttons:nth-child(1){
+    background: rgb(40, 182, 238);
+    border:4px solid rgb(3, 71, 98);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .6px 2px .2px skyblue,
+    .2px .6px 2px .2px skyblue,
+    .2px .6px 2px .2px skyblue,
+    .2px .6px 2px .2px skyblue;
+}
+
+.buttons:nth-child(2){
+    background: rgb(250, 192, 31);
+    border:4px solid rgb(86, 57, 2);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .6px 2px .2px orange,
+    .2px .6px 2px .2px orange,
+    .2px .6px 2px .2px orange,
+    .2px .6px .2px .2px orange;
+}
+
+
+.buttons:nth-child(3){
+    background: rgb(255, 86, 114);
+    border:4px solid rgb(71, 1, 13);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .1px 2px .2px rgb(194, 3, 35),
+    .2px .1px 2px .2px rgb(194, 3, 35),
+    .2px .1px 2px .2px rgb(194, 3, 35),
+    .2px .1px 2px .2px rgb(194, 3, 35);
+}
+
+.buttons:nth-child(4){
+    background: rgb(4, 194, 102);
+    border:4px solid  rgb(1, 74, 39);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .1px 2px .2px  rgb(37, 216, 129),
+    .2px .1px 2px .2px  rgb(37, 216, 129),
+    .2px .1px 2px .2px  rgb(37, 216, 129),
+    .2px .1px 2px .2px  rgb(37, 216, 129);
+}
+
+
+.buttons:nth-child(5){
+    background: rgb(174, 98, 255);
+    border:4px solid rgb(93, 1, 191);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .1px 2px .2px rgb(174, 98, 255),
+    .2px .1px 2px .2px rgb(174, 98, 255),
+    .2px .1px 2px .2px rgb(174, 98, 255),
+    .2px .1px 2px .2px rgb(174, 98, 255);
+}
+
+.buttons:nth-child(6){
+    background: rgb(1, 172, 138);
+    border:4px solid rgb(0, 83, 67);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .1px 2px .2px rgb(6, 214, 173),
+    .2px .1px 2px .2px rgb(6, 214, 173),
+    .2px .1px 2px .2px rgb(6, 214, 173),
+    .2px .1px 2px .2px rgb(6, 214, 173);
+}
+
+
+
+
+
+.buttons-2:nth-child(1){
+    background: rgb(12, 181, 3);
+    border:4px solid rgb(2, 68, 12);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .1px 2px .2px rgb(12, 181, 3),
+    .2px .1px 2px .2px rgb(12, 181, 3),
+    .2px .1px 2px .2px rgb(12, 181, 3),
+    .2px .1px 2px .2px rgb(12, 181, 3);
+}
+
+.buttons-2:nth-child(2){
+    background: rgb(47, 47, 47);
+    border:4px solid rgb(34, 34, 34);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .6px 2px .2px rgb(123, 121, 121),
+    .2px .6px 2px .2px rgb(123, 121, 121),
+    .2px .6px 2px .2px rgb(123, 121, 121),
+    .2px .6px .2px .2px rgb(123, 121, 121);
+}
+
+
+.buttons-2:nth-child(3){
+    background: rgb(76, 70, 255);
+    border:4px solid rgb(8, 1, 79);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .1px 2px .2px rgb(5, 32, 96),
+    .2px .1px 2px .2px rgb(5, 32, 96),
+    .2px .1px 2px .2px rgb(5, 32, 96),
+    .2px .1px 2px .2px rgb(5, 32, 96);
+}
+
+.buttons-2:nth-child(4){
+    background: rgb(233, 28, 172);
+    border:4px solid  rgb(60, 2, 64);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .1px 2px .2px  rgb(231, 12, 220),
+    .2px .1px 2px .2px  rgb(231, 12, 220),
+    .2px .1px 2px .2px  rgb(231, 12, 220),
+    .2px .1px 2px .2px  rgb(231, 12, 220);
+}
+
+
+.buttons-2:nth-child(5){
+    background: rgb(218, 120, 16);
+    border:4px solid rgb(79, 33, 3);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .1px 2px .2px rgb(218, 120, 16),
+    .2px .1px 2px .2px rgb(218, 120, 16),
+    .2px .1px 2px .2px rgb(218, 120, 16),
+    .2px .1px 2px .2px rgb(218, 120, 16);
+}
+
+.buttons-2:nth-child(6){
+    background: rgb(199, 15, 98);
+    border:4px solid rgb(59, 3, 28);
+    padding:8px 18px 8px 18px ;
+    box-shadow: 
+    .2px .1px 2px .2px rgb(199, 15, 98),
+    .2px .1px 2px .2px rgb(199, 15, 98),
+    .2px .1px 2px .2px rgb(199, 15, 98),
+    .2px .1px 2px .2px rgb(199, 15, 98);
+}

@@ -1,0 +1,65 @@
+body{
+    background: white;
+    font-family: Montserrat;
+}
+
+.main-container,.container,.container div{
+    display: flex;
+}
+
+.main-container{
+    flex-direction: row;
+}
+
+.container div{
+    flex-direction: column;
+}
+
+.container{
+    padding: 120px 0px 0px 0px;
+    flex-direction:row;
+    gap:20px;
+}
+
+.container,.main-container{
+    justify-content: center;
+}
+
+.container div{
+    text-align: center;
+    width: 20rem;
+    height: 20rem;
+    box-shadow: .2px .2px 2px .2px lightgray;
+    justify-content: space-between;
+    padding:10px;
+    color:white;
+    align-items: center;
+}
+
+.container div:nth-child(1){
+    background: linear-gradient(to left,rgb(248, 114, 114),rgb(255, 106, 106));
+}
+
+.container div:nth-child(2){
+    color:white;
+    background: linear-gradient(to left,rgb(9, 226, 238),rgb(10, 136, 182));
+}
+
+.container div:nth-child(3){
+    background: linear-gradient(to left,rgb(142, 1, 152),rgb(225, 50, 231));
+}
+
+a{
+    background: white;
+    color:black;
+    width: 30%;
+    padding: 7px 12px 8px 16px;
+    text-decoration: none;
+    box-shadow: .2px .2px 2px .2px white;
+}
+
+a:hover{
+    transition: .4s;
+    color:white;
+    background: transparent;
+}

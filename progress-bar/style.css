@@ -1,0 +1,100 @@
+body{
+    font-family: 'Roboto';
+}
+
+.progress-bar-box{
+    border-radius:63px;
+    margin-left:500px;
+    margin-top:300px;
+    width:40%;
+    height:10rem;
+    background:linear-gradient(rgb(239, 149, 255),rgb(243, 174, 255),rgb(71, 3, 70));
+    padding-left:103px;
+    padding-bottom:58px;
+    box-shadow: 4px 10px 15px 3px gray;
+}
+
+.icons-row,.line-row,.progress-bar-text-row{
+display: flex;
+}
+
+.icons-row,.progress-bar-text-row{
+    flex-direction:row;
+}
+
+.icons-row,.progress-bar-text-row{
+    justify-content: space-around;
+}
+
+.icons-row{
+    padding-top:85px;
+}
+
+.icons{
+    border:1px solid rgb(87, 6, 93);
+    border-radius:200px;
+    padding:6px;
+    background: rgb(87, 6, 93);
+    color:white;
+    font-size:37px;
+}
+
+.icons:nth-child(1){
+    position: relative;
+    left:-20px;
+}
+
+.icons:nth-child(3){
+    position: relative;
+    left:-45px;
+}
+
+.icons:nth-child(5){
+    position: relative;
+    left:-90px;
+}
+
+.icons:nth-child(7){
+    position: relative;
+    left:-115px;
+}
+
+.line{
+    position: relative;
+    top:23px;
+    left:-76px;
+    width:10rem;
+    height:0.2rem;
+    background: rgb(106, 4, 110);
+}
+
+.line:nth-child(2){
+    position: relative;
+    left:-32px;
+}
+.line:nth-child(4){
+    position: relative;
+    left:-57px;
+}
+
+.line:nth-child(6){
+    position: relative;
+    left:-103px;
+}
+
+.progress-bar-text-row{
+    color:rgb(247, 247, 247);
+    margin-left: -100px;
+}
+
+.progress-bar-text:nth-child(3){
+position: relative;
+left:-18px;
+
+}
+
+.progress-bar-text:nth-child(4){
+    position: relative;
+    left:-35px;
+    
+    }

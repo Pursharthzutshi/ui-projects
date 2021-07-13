@@ -1,0 +1,115 @@
+body{
+    background: rgb(35, 35, 35);
+    font-family: Montserrat;
+}
+
+.call-box,.icons-row,.inner-call-box,.top-icons-rows{
+    display: flex;
+}
+
+.icons-row,.top-icons-rows{
+    flex-direction: row;
+}
+
+.top-icons-rows{
+    margin-top: -5px;
+    gap:px;
+    margin-left:72rem;    
+}
+
+.top-icons{
+    color:white;
+    font-size:25px;
+    padding:5px;
+}
+
+.call-box,.inner-call-box{
+
+    flex-direction:column ;
+}
+
+.inner-call-box{
+
+    transform: translate(30%,50%);
+}
+
+.call-box{
+    background: rgb(27, 27, 27);
+    color:white;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 120px;
+    width:80rem;
+    height:38rem;
+    border:2px solid rgb(59, 59, 59);
+    border-radius:8px;
+    box-shadow:2px 6px 10px 8px rgb(30, 30, 30);
+}
+
+.image{
+    z-index: +1;
+    background: black;
+    border:1px solid black; 
+    padding-left:8px;
+    padding-top:8px;
+    height:auto;
+    width:5rem;
+
+}
+
+.icons-row{
+    transform: translate(-35%,155%);
+    background: linear-gradient(rgb(108, 108, 108),rgb(50, 50, 50));
+    padding:10px;
+    gap:20px;
+    border-radius: 8px;
+    opacity: .8.9;
+    box-shadow: 2px 5px 42px 2px black;
+}
+
+.icons{
+    border:3px solid rgb(255, 255, 255);
+    padding:5px;
+    border-radius: 200px;
+    color:white;
+    font-size: 32px;
+}
+
+.icons:nth-child(1){
+    background: linear-gradient(rgb(0, 238, 0),rgb(31, 240, 31));
+}
+
+.icons:nth-child(2){
+    background: linear-gradient(rgb(123, 120, 120),rgb(44, 43, 43));
+}
+
+
+.icons:nth-child(3){
+    background: linear-gradient(rgb(123, 120, 120),rgb(44, 43, 43));
+}
+
+
+.icons:nth-child(4){
+    background: linear-gradient(rgb(155, 211, 240),rgb(27, 167, 236));
+}
+
+.icons:nth-child(5){
+    background: linear-gradient(rgb(251, 82, 82),rgb(255, 44, 44));
+}
+
+.name{
+    background: black;
+    color:white;
+    border-radius:10px;
+    margin-left: -45px;
+    padding: 10px 15px 10px 36px ;
+    width:38%;
+    border:1px solid black;
+    letter-spacing: 3px;
+}
+
+span{
+    padding-left: 30px;
+    color:white;
+    font-size: 13px;
+}

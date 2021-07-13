@@ -1,0 +1,78 @@
+body{
+    background:linear-gradient(to right,rgba(2, 2, 68, 0.932),rgb(39, 0, 39),rgba(76, 3, 3, 0.972),rgb(83, 55, 2));
+font-family: Montserrat;
+}
+
+.container,.icons-links-container,.all-icons-links-container{
+    display: flex;
+}
+
+.container,.icons-links-container{
+    flex-direction: row;
+}
+
+.all-icons-links-container{
+    gap:40px;
+    flex-direction: column;
+}
+
+.all-icons-links-container{
+    box-shadow: 2px 2px 2px 2px black;
+    padding:30px 55px 30px 58px;
+    
+}
+
+.all-icons-links-container:nth-child(1){
+    background:linear-gradient(to right, rgb(3, 120, 138),rgb(37, 222, 250));
+    box-shadow: .2px .2px 8px .2px rgba(0, 128, 255, 0.734),
+    .2px .2px 8px .2px rgba(0, 128, 255, 0.782),
+    .2px .2px 8px .2px rgba(0, 128, 255, 0.83),
+    .2px .2px 8px .2px rgba(0, 128, 255, 0.707);
+}
+
+.all-icons-links-container:nth-child(2){
+    background:linear-gradient(to right,rgb(165, 48, 255), rgb(252, 56, 232));
+    box-shadow: .2px .2px 8px .2px rgba(211, 65, 255, 0.782),
+    .2px .2px 8px .2px rgba(211, 65, 255, 0.782),
+    .2px .2px 8px .2px rgba(211, 65, 255, 0.782),
+    .2px .2px 8px .2px rgba(211, 65, 255, 0.782);
+}
+
+.all-icons-links-container:nth-child(3){
+    background:linear-gradient(to left,rgb(255, 35, 35), rgb(255, 66, 151));
+    box-shadow: .2px .2px 8px .2px rgba(255, 93, 93, 0.7),
+    .2px .2px 8px .2px rgba(255, 93, 93, 0.741),
+    .2px .2px 8px .2px rgba(255, 93, 93, 0.762),
+    .2px .2px 8px .2px rgba(255, 46, 46, 0.7);
+}
+
+
+.all-icons-links-container:nth-child(4){
+    background:linear-gradient(to left,rgba(255, 209, 3, 0.809), rgb(255, 101, 54));
+    box-shadow: .2px .2px 8px .2px rgba(255, 93, 93, 0.7),
+    .2px .2px 8px .2px rgba(243, 210, 20, 0.741),
+    .2px .2px 8px .2px rgba(255, 93, 93, 0.762),
+    .2px .2px 8px .2px rgba(255, 46, 46, 0.7);
+}
+
+
+.container{
+    padding-top: 200px;
+justify-content: center;
+    gap:80px;   
+}
+
+.icons-links-container{
+
+    color:white;
+    gap:10px;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+ion-icon{
+    font-size:16px ;
+}

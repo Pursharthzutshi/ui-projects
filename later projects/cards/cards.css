@@ -1,0 +1,109 @@
+body{
+    margin:0;
+    background:linear-gradient(to left,rgb(216, 246, 255),rgb(255, 237, 222),rgb(250, 215, 226),rgb(250, 207, 193)) ;
+    font-family:Montserrat;
+}
+
+.container{
+    display: flex;
+}
+
+.container{
+    flex-direction: row;
+}
+
+p{
+    font-size: 15.5px;
+    letter-spacing: 2px;
+}
+
+.container{
+    gap:30px;
+    color:rgb(57, 57, 57);
+    padding-top: 80px;
+    justify-content: center;
+}
+
+h1{
+    font-size: 30px;
+    background: white;
+    box-shadow: .2px .2px 6px .2px white;
+    color:black;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 35px 0px 0px 0px;
+}
+
+.cards{
+    color:white;
+    border-radius: 20px;
+    padding-left: 20px;
+    width:20rem;
+    height: 20rem;
+    background: linear-gradient(rgb(250, 247, 247),white);
+}
+
+.cards:nth-child(1){
+    border:5px outset rgb(255, 242, 67);
+    box-shadow: .2px .2px 5px .2px rgb(62, 59, 10);
+}
+
+.cards:nth-child(2){
+    border:5px outset rgb(197, 5, 76);
+    box-shadow: .2px .2px 5px .2px rgb(197, 5, 76);
+}
+
+.cards:nth-child(3){
+    border:5px outset rgb(16, 125, 179);
+    box-shadow: .2px .2px 5px .2px rgb(159, 231, 247);    
+}
+
+.tag{
+    border-radius: 20px;
+    margin-left: -10.8px;
+    width: 100%;
+    height: 4rem;
+    box-shadow: .2px .2px 6px .2px white;
+    background: linear-gradient(to left,white,rgb(253, 249, 249));
+}
+
+.button,.cards{
+    color: white;
+    background:linear-gradient( to left,rgb(252, 99, 99), rgb(243, 167, 4));
+}
+
+.cards:nth-child(2){
+    background: linear-gradient(to right,rgb(243, 16, 99),rgb(255, 82, 82));
+}
+
+.cards:nth-child(3){
+    background: linear-gradient(to left,rgb(0, 137, 121),rgb(154, 66, 248));
+}
+
+.button,.button-2,.button-3{
+    font-size: 14px;
+    margin:15px 10px 10px 110px;
+    border-radius:200px;
+    color:white;
+    padding:8px 10px 8px 12px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button{
+    border:5px inset rgb(255, 88, 11);
+    box-shadow: 2px 2px 2px 2px rgb(121, 39, 1); 
+    background:linear-gradient( to left,rgb(252, 99, 99), rgb(243, 167, 4));
+}
+
+.button-2{
+    border:5px inset rgb(255, 61, 132);
+    box-shadow: 2px 2px 2px 2px rgb(133, 4, 52); 
+    background: linear-gradient(to right,rgb(243, 16, 99),rgb(255, 82, 82));
+}
+
+.button-3{
+    border:5px inset rgb(10, 243, 216);
+    box-shadow: 2px 2px 2px 2px rgb(1, 66, 58); 
+    background: linear-gradient(to left,rgb(0, 137, 121),rgb(154, 66, 248));
+}

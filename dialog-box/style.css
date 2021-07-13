@@ -1,0 +1,147 @@
+body{
+    background: rgb(240, 240, 240);
+    font-family: 'Roboto';
+}
+
+.buttons-row,.inner-dialog-box-row,.dialog-box-container-row,.icons-row,.inner-buttons-row{
+    display: flex;
+}
+
+.buttons-row,.inner-dialog-box-row,.dialog-box-container-row,.icons-row,.inner-buttons-row{
+    flex-direction: row;
+}
+
+.dialog-box-container-row{
+    margin-left:220px;
+    margin-top:110px;
+    gap:80px;
+}
+
+.buttons-row,.dialog-box-container{
+    gap:120px;
+}
+
+.buttons-row{
+    padding-left: 52px;
+    margin-left: 210px;
+    margin-top: -160px;
+}
+
+.buttons-row{
+    gap:180px;
+}
+
+.inner-buttons-row{
+    margin-left: 30px;
+    gap:40px;
+}
+
+
+.dialog-box{
+    width:20rem;
+    height:18.3rem;
+    background: linear-gradient(rgb(249, 252, 255),rgb(255, 255, 255));
+    padding-top: 12px;
+
+}
+
+.dialog-box-container{
+    border-radius: 8px;
+}
+
+.dialog-box-container:nth-child(1){
+    border:5px inset rgb(152, 3, 3);
+
+}
+
+.dialog-box-container:nth-child(2){
+    border:5px inset rgb(94, 6, 94);
+
+}
+
+.dialog-box-container:nth-child(3){
+    border:5px inset green;
+
+}
+.dialog-box:nth-child(3){
+    border:5px inset rgb(240, 234, 234);
+
+}
+h1{
+    color:rgb(62, 32, 32);
+    margin-top: 120px;
+    padding-left: 40px;    
+    font-size:25px;
+    text-align: center;
+    letter-spacing:10px;
+}
+
+.icons-row{
+    margin-top: -217px;
+    margin-left: 350px;
+    gap:320px;
+}
+
+.icons{
+    border-radius: 20px;
+    font-size:90px;
+    color:rgb(121, 2, 2);    
+}
+
+.icons:nth-child(2){
+    color:rgb(53, 3, 64);
+}
+
+.icons:nth-child(3){
+    color:rgb(5, 71, 48);
+}
+
+.buttons{
+    margin-top: 220px;
+    text-decoration: none;
+    color:white;
+    letter-spacing: 4px;
+    padding:8px 18px 8px 18px;
+    border-radius:10px;    
+}
+
+.buttons:nth-child(1){
+    border:3px ridge rgb(2, 111, 2);
+    color:rgb(3, 44, 3);
+    background: linear-gradient(rgb(243, 243, 243),rgb(151, 240, 186));
+}
+
+.buttons:nth-child(2){
+    border:3px ridge rgb(175, 0, 0);
+    color:rgb(103, 0, 0);
+    background: linear-gradient(rgb(243, 243, 243),rgb(255, 84, 84));
+}
+
+.inner-dialog-box,.inner-dialog-box-2,.inner-dialog-box-3{
+    height:22vh;   
+    clip-path: polygon(0% 90%,0% 100%,0% 100%,100% 30%);
+}
+
+.inner-dialog-box{
+    border:1px solid red;
+    background:linear-gradient(rgb(245, 38, 38),#450b0b);
+}
+
+.inner-dialog-box-2{
+    background:linear-gradient(rgb(240, 198, 241),#430845);
+}
+
+.inner-dialog-box-3{
+    background: linear-gradient(#169473,rgb(1, 76, 51));
+}
+
+.card-heading{
+    font-size: 19px;
+    text-align: center;
+}
+
+.buttons:hover{
+    transform: scale(1.1);
+    transition: .1s;
+    background: transparent;    
+}

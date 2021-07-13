@@ -1,0 +1,175 @@
+body{
+ font-family: Montserrat;   
+ height: 108.3vh;
+}
+
+h2{
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    color:rgb(56, 56, 56);
+    padding-top: 60px;
+    text-align: center;
+}
+
+.container{
+    margin-top: -120px;
+}
+
+.buttons,.buttons-2,.buttons-3{
+    text-decoration: none;
+}
+
+.buttons-row,.icons-row,.icons-row-2,.icons-row-3{
+    display: flex;
+}
+
+
+.buttons-row,.icons-row,.icons-row-2,.icons-row-3{
+    flex-direction: row;
+}
+
+.icons-row,.icons-row-2,.icons-row-3{    
+margin-left: 70px;
+justify-content: space-around;
+    margin-top: -25px;
+}
+
+.icons-row{
+    gap:120px;
+}
+
+.icons-row-2{
+    margin-top: -33px;
+    gap:100px;
+}
+
+.icons-row-3{
+    margin-top: -30px;
+    gap:90px;
+}
+
+.icons-3:nth-child(1){
+    color:white;
+    margin-left: 17px;
+}
+
+
+.icons-3:nth-child(2){
+    color:red;
+    margin-left: 1px;
+}
+
+
+.icons-3:nth-child(3){
+    color:rgb(253, 209, 209);
+    margin-left: 2px;
+}
+
+.buttons-row{
+    
+    padding-top: 210px;
+gap:-20px;
+justify-content: space-around;
+}
+
+.buttons,.buttons-2,.buttons-3{
+    
+    border-radius: 8px;
+    color:white;
+    letter-spacing: 3px;
+border:1px solid transparent;
+padding:10px 40px 8px 20px;
+}
+
+buttons{
+    box-shadow:2px 2px 32px 2px rgb(220, 255, 214) ;
+}
+
+buttons-2{
+    box-shadow:2px 2px 32px 2px rgb(223, 250, 214) ;
+}
+
+.buttons:nth-child(1){
+    background: linear-gradient(to left,rgb(102, 102, 255),rgb(88, 88, 255));
+}
+
+.buttons:nth-child(2){
+    color:rgb(54, 54, 236);
+background: white;
+    border:3px solid rgb(106, 106, 250);
+}
+
+.buttons:nth-child(3){
+    color:white;
+    background: rgb(22, 1, 105);
+}
+
+.icons,.icons-2,.icons-3{
+    font-size: 18px;
+}
+
+.icons:nth-child(1){
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+}
+
+.icons-2:nth-child(1){
+    margin-left: 25px;
+}
+
+.icons:nth-child(2){
+    color: rgb(125, 125, 243);
+}
+
+.icons:nth-child(3){
+    color: rgb(204, 223, 255);
+}
+
+.icons-2:nth-child(1){
+    color:white;
+
+}
+
+.icons-2:nth-child(3){
+    color:rgb(214, 252, 210);
+}
+
+.buttons-2:nth-child(1),.buttons-2:nth-child(3){
+    color:white;
+}
+
+
+.buttons-2:nth-child(1){
+    background: linear-gradient(to left,rgb(49, 216, 34),rgb(24, 238, 24));
+}
+
+.buttons-2:nth-child(2){
+    color:green;
+    background: transparent;
+    border:3px solid green;
+}
+
+.icons-2:nth-child(2){
+    color:green;
+}
+
+.buttons-2:nth-child(3){
+    color:white;
+    background: linear-gradient(to left,rgb(8, 150, 8),rgb(14, 157, 14));
+}
+
+
+.buttons-3:nth-child(1){
+    background: linear-gradient(to left,rgb(255, 106, 80),rgb(255, 92, 64));
+}
+
+.buttons-3:nth-child(2){
+    background: white;
+    border:3px solid red;
+    color:red;
+}
+
+.buttons-3:nth-child(3){
+    color:white;
+    background: linear-gradient(to left,rgb(181, 15, 15),rgb(171, 28, 9));
+}

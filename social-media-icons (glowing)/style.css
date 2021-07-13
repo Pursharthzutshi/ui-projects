@@ -1,0 +1,42 @@
+body{
+    background: linear-gradient(to left,rgb(14, 14, 14),rgb(51, 51, 51));
+}
+
+.container{
+    display: flex;
+}
+
+.container{
+    gap:100px;
+    padding-top: 300px;
+    justify-content: center;
+    align-self: center;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+
+}
+
+ion-icon{
+    padding:10px 12px 10px 12px;
+    font-size: 2.5rem;
+    background: linear-gradient(rgb(0, 35, 69),rgb(10, 113, 216));
+    color:white;
+    border:10px double white;    
+    box-shadow: .2px .2px 12px .2px white;
+}
+
+ion-icon:nth-child(2){
+    background: linear-gradient(rgb(67, 0, 69),rgb(208, 84, 12),rgb(216, 10, 195));    
+}
+
+ion-icon:nth-child(3){
+    background: linear-gradient(rgb(202, 211, 23),rgb(115, 98, 4));    
+}
+
+
+ion-icon:nth-child(4){
+    background: linear-gradient(to bottom,rgb(92, 198, 221),rgb(2, 124, 130));    
+}

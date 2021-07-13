@@ -1,0 +1,124 @@
+body{
+    font-family: Montserrat;
+    margin:0;
+    background:white;
+}
+
+.sections-column,.white-section,.dark-section,.dark-card,.white-card,.buttons-row{
+    display: flex;
+}
+
+
+.white-section,.dark-section{
+    align-items: center;
+    justify-content: center;
+}
+
+.sections-column,.dark-card,.white-card{
+    flex-direction: column;
+}
+
+
+.dark-card,.white-card{
+    padding:12px;
+    align-items: center;
+    width:15rem;
+    height:19.1rem;
+    background: black;
+    border-radius:8px ;
+box-shadow: 2px 2px 2px 2px white;
+}
+
+h2{
+    letter-spacing: 3px;
+    font-size: 18px;
+}
+
+
+.dark-card{
+    box-shadow: .2px .2px 8px .2px black;
+    color:white;
+    background: linear-gradient(to left,rgb(39, 39, 39),rgb(35, 35, 35));
+}
+
+
+.white-card{
+    box-shadow: .2px .2px 4.5px .2px white;
+    margin-top: -10px;
+    color:black;
+    background: linear-gradient(to left,rgb(240, 238, 238),rgb(240, 236, 236));
+}
+
+.white-section{    
+    background:rgb(245, 245, 245);
+    height:23rem;
+    width: 100%;
+}
+
+.line{
+    margin-top: -10px;
+    width:100%;
+    height:.5px;
+    background: gray;
+}
+
+.dark-section{
+    background: rgb(30, 30, 30);
+    height:24.1rem;
+    width: 100%;
+}
+
+
+.sections-column{
+    justify-content: center;
+}
+
+.profile-image{
+    margin-top: -10px;
+    width:auto;
+    height: 3.5rem;
+    border-radius:200px;
+}
+
+span{
+    font-size: 13px;
+    letter-spacing: 2px;
+    color:rgb(144, 141, 141);
+margin-top:-6px;
+}
+
+.info{
+    font-family: ;
+    font-size: 12.6px;
+    line-height: 18px;
+}
+
+.buttons-row{
+    margin-top: 10px;
+gap:20px;   
+}
+
+.buttons,.buttons-2{
+    border-radius: 200px;
+    font-size: 14px;
+    padding:6px 15px 6px 15px;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+.buttons{
+    box-shadow: .2px .2px 5.3px .2px white;
+    border:1px solid white;
+    color:black;
+    background: white;
+
+}
+
+.buttons-2{
+    box-shadow: .2px .2px 7px .2px black;
+    border:1px solid black;
+    color:white;
+    background:black;
+    
+
+}

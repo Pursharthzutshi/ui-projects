@@ -1,0 +1,29 @@
+body{
+    font-family: Montserrat;
+}
+
+.rainbow-buttons-row{
+    display: flex;
+}
+
+.rainbow-buttons-row{
+    flex-direction: row;
+}
+
+.rainbow-buttons-row{
+margin-top: 350px;
+    justify-content: space-around;
+
+}
+
+.buttons{
+    color:white;
+    padding:5px 10px 5px 10px;
+    background:linear-gradient(rgb(236, 130, 130),#fc9696,rgb(241, 71, 71));
+    }
+
+.buttons:nth-child(1){
+    border:1px solid white;
+    background:linear-gradient(rgb(236, 130, 130),#fc9696,rgb(245, 24, 24));
+
+}

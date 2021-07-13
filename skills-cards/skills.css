@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto';
+    background: linear-gradient(rgb(63, 0, 78),rgb(106, 86, 255),rgb(74, 4, 101));
+    background-repeat: no-repeat;
+    height:98.3vh;
+}
+
+h1{
+    font-size: 30px;
+    margin-left:-120px;
+    text-align: center;
+    color:rgb(174, 123, 213);
+}
+
+.cards-container{
+    display: flex;
+}
+
+.cards-container{
+    gap:110px;
+    flex-direction: row;
+}
+
+.cards-container:nth-child(5){
+    margin-left: 318px;
+}
+
+.cards-container{
+    margin-top:50px;
+    margin-left:200px;
+}
+
+.cards,.cards-2{
+    opacity: .95;
+    color:white;
+    padding:32px;
+    border-radius:8px;
+    width:12.8rem;
+    height: 11.2brem;
+    border:1px solid rgb(15, 0, 113);
+    box-shadow: .88px 3px 4px .3px rgb(6, 0, 47);
+    cursor: pointer;
+
+}
+
+
+.cards:hover,.cards-2:hover{
+    transform: scale(0.9) rotate(5deg) translateX(5px) translateY(5px);
+    box-shadow: none;
+    border:none;
+    transition: .3s;
+
+}
+
+.cards:nth-child(1){
+    background: linear-gradient(rgb(253, 123, 63),rgb(231, 58, 58));
+}
+
+.cards:nth-child(2){
+    background: linear-gradient(rgb(68, 66, 66),rgb(154, 154, 154));
+}
+
+.cards:nth-child(3){
+    padding-right:30px;
+    white-space: nowrap;
+    background: linear-gradient(rgb(230, 72, 248),rgb(134, 37, 224));
+}
+
+.cards-2:nth-child(1){
+    background: linear-gradient(rgb(11, 208, 194),rgb(38, 56, 255));
+}
+
+.cards-2:nth-child(2){
+padding-right:40px;
+    white-space: nowrap;
+    background: linear-gradient(rgb(243, 116, 31),rgb(146, 149, 10));
+}
+
+.cards-heading{
+margin-left: -18px;
+    font-size: 18px;
+}
+
+.icons{
+    margin-left: -18px;
+    font-size:55px;
+}
+
+.cards-text{
+    text-align: center;
+    font-size: 16.7px;
+}

@@ -1,0 +1,80 @@
+body{
+    background: rgb(191, 97, 35);
+    font-family: sans-serif;
+}
+
+.box,.input-fields-column,.input-fields-button-column{
+    display: flex;
+}
+
+.container{
+    display: flex;
+}
+
+.container{
+justify-content: center;
+margin-top: 200px;
+}
+
+.input-fields-column{
+    flex-direction: row;
+}
+
+.box,.input-fields-button-column{
+    flex-direction: column;
+}
+
+.input-fields-column{
+    justify-content: space-around;
+}
+
+.box{
+    align-content: center;
+    color:white;
+    width:250px;
+    height:230px;
+    background:linear-gradient(rgb(243, 129, 77),orange,rgb(228, 148, 62));
+    border:2px solid rgb(255, 180, 100);
+    box-shadow: 2px 2px 8px 2px rgb(39, 39, 39);
+    padding:15px;
+    border-radius:25px;
+}
+
+.box-heading{
+    font-size:16px;
+    text-align: center;
+}
+
+.number-fields{
+    height:30px;
+    width:25px;
+    border:3px solid rgb(142, 82, 4);  
+}
+
+.submit-button{
+    margin-top:-30px;
+    text-decoration: none;
+    background: linear-gradient(rgb(236, 91, 34),rgb(238, 126, 82));
+    border:1px solid orange;
+    border-radius:20px;
+    padding:6px 16px 6px 16px;
+    color:white;
+    text-align: center;
+}
+
+.submit-button:hover{
+    background: linear-gradient(rgb(206, 72, 19),rgb(196, 69, 19));
+}
+
+.input-fields-button-column{
+    gap:60px;
+}
+
+
+.resend-code{
+    color:white;
+    margin-top:-20px;
+    margin-left:3px;
+    text-decoration:underline;
+    font-size:12px;
+}

@@ -1,0 +1,192 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: Montserrat;
+}
+
+
+.top-bar-row,.nav-bar,.nav-bar-boxes,.buttons-row,.heading-para-row,.green-tag,.buttons-circle-row,.boxes-row,.boxes{
+    display: flex;
+}
+
+.nav-bar,a,.nav-bar-boxes,h1,h2,h3,.buttons:nth-child(2),.header-para{
+    color:white;
+}
+
+
+h2,.buttons-row{
+    padding-left: 75px;
+}
+
+.top-bar-row,.nav-bar,.nav-bar-boxes,.buttons-row,.heading-para-row{
+    flex-direction: row;
+}
+
+.header{
+    background-image:linear-gradient(rgba(3, 23, 13, 0.5),rgba(3, 44, 23, 0.6)),url('images/pexels-burst-374147.jpg');
+    background-position: center;
+    background-size:cover;
+    height:78vh;
+}
+
+.top-bar-row{
+    gap:10px;
+}
+
+.icon-image{
+    width:3rem;
+    height: auto;
+
+}
+
+h1{
+    text-align:center ;
+    letter-spacing: 5px;
+    padding-left: 80px;
+}
+
+.nav-bar{
+    box-shadow:32px 12px 60px 32px rgba(0, 3, 2, 0.6);
+    padding: 12px;
+    background-image:linear-gradient(rgba(1, 14, 7, 0.5),rgba(1, 18, 12, 0.6));
+    background:transparent;
+    justify-content: space-around;
+}
+
+li{
+    margin-top: -10px;
+    list-style: none;
+}
+
+ion-icon{
+    position: relative;
+    top:3px;
+    margin-top: 12px;
+    font-size:25px;
+}
+
+a{
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav-bar-boxes{
+    gap:80px;
+    box-shadow: .2px .2px 28px .2px rgba(9, 255, 128, 0.6);
+    border:1px solid transparent;
+    padding:2px 28px 8px 28px;
+    background: linear-gradient(rgba(9, 255, 128, 0.6),rgba(6, 255, 176, 0.6));
+    border-radius: 10px;
+}
+
+
+h2{
+    text-transform: uppercase;
+    margin-top: -20px;
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 44px;
+    padding-top: 50px;
+}
+
+.buttons-row{
+    gap:20px;
+}
+
+.buttons{
+    border-radius: 8px;
+    background:linear-gradient(rgb(251, 255, 251),rgb(207, 213, 207)) ;
+    letter-spacing: 2.5px;
+    border:1px solid transparent;
+    padding:12px 18px 12px 18px ;
+    height:20px;
+}
+
+
+.buttons:nth-child(1){
+    box-shadow: .2px .2px 6px .2px white;
+    background:linear-gradient(rgb(251, 255, 251),rgb(207, 213, 207)) ;
+    color:black;
+}
+
+
+.buttons:nth-child(2){
+    box-shadow: .2px .2px 4.5px .2px rgb(198, 197, 197);
+    background:transparent ;
+}
+
+.green-tag{
+    margin-top: 22px;
+    margin-left: -0px;
+    transform: rotate(-20deg);
+    border-radius:200px;
+    padding-top: 2px;
+    width:6rem;
+    height: 6rem;
+    padding:10px;
+    background: linear-gradient(rgba(4, 162, 81, 0.6),rgba(1, 187, 88, 0.6));
+}
+
+
+.header-para{
+    padding:12px;
+}
+
+.header-image{
+    width:auto;
+    height: 18rem;
+    padding-left: 80rem;
+
+}
+
+.boxes-row{
+    justify-content: space-around;
+}
+
+.boxes{
+    justify-content: space-around;    
+    border-radius:10px;
+    margin-top: -100px;
+    width:15rem;
+    height: 13rem;
+    border:1px solid black;
+    background-image:linear-gradient(to left,rgba(6, 93, 54, 0.5),rgba(0, 98, 55, 0.6)),url('images/pexels-igor-haritanovich-1695052.jpg');
+    background-position: center;
+    background-size: cover;
+    border:1px solid transparent;
+    box-shadow: .2px .2px 32px .2px rgba(0, 0, 0, 0.5);
+}
+
+.heading{
+    font-size: 20px;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.service-section{
+    border:px solid rgba(0, 0, 0, 0.9);
+    background-image:linear-gradient(to left,rgba(1, 23, 8, 0.9),rgba(0, 35, 17, 0.9));
+    background-position:center;
+    background-size:cover;
+    height: 22vh;
+}
+
+.service-icon-image{
+    padding-top: 20px;
+    width: auto;
+    height: 4rem;
+}
+
+
+.boxes{
+    flex-direction: column;
+}
+
+
+h3{
+    padding:3px;
+    letter-spacing: 4px;
+    text-align: center;
+    box-shadow: .2px .2px 22px .2px rgb(29, 29, 29);
+    background: linear-gradient(rgba(0, 209, 126, 0.5),rgba(0, 164, 98, 0.5));
+}

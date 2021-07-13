@@ -1,0 +1,260 @@
+body{
+    background: linear-gradient(to left,rgb(255, 222, 222),rgb(250, 214, 248),rgb(253, 230, 202),rgb(225, 213, 252),rgb(255, 247, 243));
+    font-family: Montserrat;
+}
+
+.container,.main-container,.mobile-view,.mobile-view-2,.boxes-container,.mobile-view-2 .boxes-container div,.footer-container,form,.mobile-view-content-container,.mobile-view .mobile-view-content-container div,.social-media-buttons{
+    display: flex;
+}
+
+.mobile-view-2 .boxes-container:nth-child(4) div:nth-child(2),.mobile-view .mobile-view-content-container a{
+    color:black;
+}
+
+.mobile-view .mobile-view-content-container h1,.mobile-view .mobile-view-content-container h3{
+    color: rgb(84, 1, 95);
+}
+
+.mobile-view .mobile-view-content-container h1,.mobile-view .mobile-view-content-container h2{
+    border-bottom: 4px solid rgb(84, 1, 95);
+}
+
+.mobile-view-2 .boxes-container div:hover,.mobile-view .mobile-view-content-container .social-media-buttons a,.mobile-view .mobile-view-content-container .social-media-buttons a:nth-child(2){
+    color:white;
+}
+
+a,.mobile-view .mobile-view-content-container a{
+    text-decoration: none;
+}
+
+
+.button{
+    box-shadow: .2px .2px 3px .2px rgb(172, 172, 172);
+}
+
+.main-container{
+    gap:20px;
+    justify-content: center;    
+}
+
+.container,.footer-container,.mobile-view .mobile-view-content-container div{
+    flex-direction: row;
+}
+
+.mobile-view .mobile-view-content-container div{
+    justify-content: center;
+    gap:20px;
+}
+
+
+.mobile-view .mobile-view-content-container h1{
+    text-align: center;
+    line-height: 30px;
+    margin: -3px 0px 0px -1px;
+    padding:20px 10px 20px 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    width:100%;
+}
+
+
+.mobile-view .mobile-view-content-container .social-media-buttons{
+    flex-direction:column;
+    padding:30px 0px 0px 0px;
+}
+
+.mobile-view .mobile-view-content-container .social-media-buttons a{
+    font-family: 'Montserrat';
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-size: 17px;
+    white-space: nowrap;
+    width: 70%;
+    margin: -2px 0px 0px 35px;
+    padding:6px 10px 10px 12px;
+}
+
+.mobile-view .mobile-view-content-container .social-media-buttons a:nth-child(1){
+    background: linear-gradient(to left,rgb(171, 62, 62),rgb(179, 51, 51));
+    border-left: 5px solid rgb(81, 4, 4);
+}
+
+.mobile-view .mobile-view-content-container .social-media-buttons a:nth-child(2){
+    background: linear-gradient(to left,rgb(23, 106, 223),rgba(29, 150, 255, 0.612));
+    border-left: 5px solid rgb(23, 106, 223);
+}
+
+.mobile-view .mobile-view-content-container .social-media-buttons a:nth-child(3){
+    background: linear-gradient(to left,rgb(81, 151, 250),rgb(30, 212, 240));
+    border-left: 5px solid rgb(0, 113, 130);
+}
+
+.mobile-view .mobile-view-content-container .social-media-buttons ion-icon{
+    margin: 2px 2px 2px 2px;
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+svg{
+    background:linear-gradient(to left,rgb(255, 237, 255),rgb(255, 242, 255),rgb(255, 245, 245));
+    box-shadow: .2px .2px 2px .2px  gray;
+    height: auto;
+    width:23.1rem;
+    margin: 2px 0px 0px 2px;
+}
+
+.mobile-view .mobile-view-content-container .social-media-buttons a:nth-child(2){
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+.mobile-view,.mobile-view-2{
+    width:20rem;
+    padding:0px 17px 0px 22px;
+    height:43.2rem;
+    border:2px solid transparent;
+    box-shadow: .2px .2px 2px .2px gray;
+    opacity: .8.5;
+    background: linear-gradient(transparent,#efefff,transparent,rgb(241, 229, 255));
+}
+
+.mobile-view,.mobile-view-2,.mobile-view-2 .boxes-container div{
+    align-items: center;
+    flex-direction: column;
+}
+
+
+mobile-view-content-container{
+    margin:  -2px 0px 0px -1px;
+    width:114.5%;
+    height: 44rem;
+    background: transparent;
+    border:1px solid transparent;
+    box-shadow: .2px .2px 2.2px .2px gray;
+}
+
+.container{
+    gap:30px;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+form,.mobile-view-content-container{
+    flex-direction: column;
+}
+
+form{
+    gap:45px;
+}
+
+input{
+    outline:none;
+    margin: -20px 0px 0px -15px;
+    padding:8px 12px 8px 12px;
+    width:105%;
+    box-shadow: .2px .2px 2px .2px gray;
+    border:1px solid transparent;
+    background:linear-gradient(to left,rgb(255, 255, 255),transparent,#fff6ff);
+}
+
+.mobile-view .mobile-view-content-container a{
+    margin-top: 10px;
+    text-align: center;
+    padding: 7px 26px 7px 26px ;
+    border-radius: 2px;
+    font-family: 'Roboto';
+    letter-spacing: 3px;
+    background:linear-gradient(to left,rgb(254, 249, 255),transparent,rgb(253, 235, 255));
+    border-left:4px solid rgb(103, 6, 120);
+    box-shadow: .2px .2px 2px .2px gray;
+}
+
+
+input::placeholder{
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+
+}
+
+.mobile-view-2{
+    margin: 25px 0px 0px 0px;
+    border:2px solid transparent;
+    border-radius: 8px;
+}
+
+p{
+    white-space: nowrap;
+    margin: -5px 0px 0px 0px;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+ion-icon{
+    font-size:3rem;
+}
+
+.boxes-container{
+    padding:20px 0px 0px 0px;
+    gap:30px;
+}
+
+.mobile-view-2 .boxes-container div{
+    width:7rem;
+    height:7.5rem;
+    border:2px solid transparent;
+    border-radius: 8px;
+    padding:0px 18px 18px 12px;
+    color:rgb(74, 3, 73);
+    box-shadow:.8px .8px 2.2px .8px rgb(172, 118, 168);
+    background:linear-gradient(to left,rgb(255, 228, 253),rgb(253, 234, 242),rgb(255, 230, 252));
+}
+
+.mobile-view-2 .boxes-container div:hover{
+    background: rgb(74, 3, 73);
+}
+
+.mobile-view-2 .boxes-container:nth-child(4) div:nth-child(2){
+    background: linear-gradient(to bottom,rgb(255, 250, 246),transparent,rgb(255, 245, 233));
+    box-shadow:.2px .2px 1px .2px gray;
+    color:rgb(160, 9, 140);
+}
+
+.mobile-view h2,.mobile-view h3{
+    font-size: 20px;
+    color:rgb(29, 28, 28);
+}
+
+h3{
+    text-align: center;
+    font-size: 16px;
+    padding:0px 0px 0px 10px;
+}
+
+.footer-container{
+    margin:-14px 0px 0px -5px;
+    width: 107%;
+    height: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background:linear-gradient(to right,rgb(250, 243, 237),#fff8ff,transparent,rgb(243, 212, 248));
+    border:2px solid transparent;
+    opacity: .7;
+    box-shadow:.8px .8px 1.2px .8px rgb(204, 112, 200);
+    backdrop-filter: blur(20px);
+}
+
+.footer-container ion-icon{
+    font-size: 1.5rem;
+    margin: 4px 0px 0px 0px;
+    padding: 4px;
+    color:rgb(106, 4, 106);
+    box-shadow: .2px .2px 2.2px .2px rgb(106, 4, 106) ;
+    border-radius:200px;
+}
+
+.footer-container{
+    gap:60px;
+    padding:10px;
+    justify-content: center;
+}

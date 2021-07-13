@@ -1,0 +1,71 @@
+body{
+    font-family: 'Roboto';
+    background: linear-gradient(rgb(185, 238, 182),rgb(208, 142, 182),#9753eb);
+    background-repeat:no-repeat;
+    height:98.3vh;
+}
+
+h1{
+    font-size: 26px;
+    text-align: center;
+    position: relative;
+    top:160px;
+    color:white;
+    letter-spacing: 5px;
+}
+
+.icons{
+    z-index: +1;
+    box-shadow: .8px .8px 3px .2px black;
+    border:1px solid white;
+    border-radius:18px;
+    background: linear-gradient(rgba(255, 250, 250, 0.2),rgb(255, 204, 195));
+    color:white;
+    font-size: 50px;
+    padding: 30px;
+}
+
+.rounded-circle:nth-child(2){
+    position: relative;
+    left:100px;
+    top:340px;
+}
+
+
+.rounded-circle:nth-child(3){
+    position: relative;
+    left:-330px;
+    top:420px;
+}
+
+.icons-row,.rounded-circle-row{
+    display: flex;
+}
+
+.icons-row,.rounded-circle-row{
+    flex-direction: row;
+}
+
+.rounded-circle-row{
+    gap:45rem;
+}
+
+.icons-row{
+    margin-left:430px;
+    margin-top:224px;
+    gap:60px;
+}
+
+.rounded-circle{
+    position: relative;
+    top:260px;
+    left:420px;
+    width:220px;
+    height:40px;
+    background: linear-gradient(rgb(143, 231, 255),rgb(243, 171, 130));
+    box-shadow: 2px 2px 82px 2px rgb(30, 249, 253),
+        2px 2px 82px 2px rgb(128, 253, 255),
+        2px 2px 82px 2px  rgb(255, 132, 61),
+        2px 2px 82px 2px  rgb(255, 132, 61);
+    border-radius: 200px;
+}

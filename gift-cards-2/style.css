@@ -1,0 +1,122 @@
+body{
+    background: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Montserrat;
+}
+
+.container,form,.main-container{
+    display:flex;
+}
+
+.container div:nth-child(1),.container div:nth-child(2) a{
+    color:white;
+}
+
+.container div:nth-child(2),.container div:nth-child(1) a{
+    color:black;   
+}
+
+.main-container,.container{
+    justify-content: center;
+}
+
+.main-container{
+    gap:40px;
+}
+
+.container{
+    flex-direction:row;
+    gap:20px;
+}
+
+h1{
+    word-spacing:4px ;
+    letter-spacing: 3px;
+    padding:50px 0px 0px 0px;
+    color:rgb(52, 48, 48);
+}
+
+.container div{
+    padding:2px 2px 16px 2px;
+    width:20rem;
+    height: 29rem;
+}
+
+.container div:nth-child(1){
+    background: linear-gradient(to left,rgb(35, 35, 35),rgb(41, 41, 41));
+    box-shadow: .2px .2px 3px .2px black;
+}
+
+.container div:nth-child(2){
+    background: linear-gradient(rgb(255, 255, 255),rgb(245, 242, 242));
+    box-shadow: .2px .2px 3px .2px gray;
+}
+
+img{
+    width:6rem;
+    height: auto;
+}
+
+h2{
+    width: 101.5%;
+    padding:5px 0px 5px 0px;
+    margin: 0px 0px 0px -3px;
+    background: white;
+    color:black;
+    box-shadow: .2px .2px 2px .2px white;
+    border-bottom: 4px solid white;
+}
+
+h2:nth-child(2){
+    border-bottom: 2px solid black;
+    padding:0px 0px 10px 0px;
+}
+
+form{
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+}
+
+p{
+    line-height: 30px;
+}
+
+input{
+    outline: none;
+    padding:7px 5px 7px 12px ;
+    width:75%;
+    border:1px solid transparent;
+    border-radius:4px;
+    box-shadow: .2px .2px 3.5px .2px white;
+}
+
+.input-field-2{
+    box-shadow: .2px .2px 1.2px .2px gray;
+}
+
+input::placeholder{
+    letter-spacing: 1px;
+    font-family: 'Roboto';
+}
+
+a{
+    margin: -5px 0px 0px 0px;
+    text-decoration: none;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    border-radius: 200px;
+    padding:5px 25px 6px 25px;
+}
+
+.container div:nth-child(1) a{
+    background: white;
+    box-shadow: .2px .2px 5px .2px white;
+    border:2px solid white;
+}  
+
+.container div:nth-child(2) a{
+    background:black;
+    box-shadow: .2px .2px 2px .2px black;
+    border:2px solid black;
+}

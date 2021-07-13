@@ -1,0 +1,131 @@
+body{
+    font-family: 'Roboto';
+    background: rgb(238, 238, 238);
+}
+
+.container,.buttons-row,.skills-row,.skills-column,.profile-card{
+    display: flex;
+}
+
+.profile-card{
+    flex-direction: column;
+}
+
+.container{
+padding-top: 100px;
+    justify-content: center;
+}
+
+.buttons-row,.skills-row{
+    flex-direction: row;
+}
+
+.buttons-row{
+    justify-content: space-around;
+}
+
+.skills-column{
+    flex-direction: column;
+}
+
+.buttons{
+    font-family: 'Montserrat';
+    color:white;
+    border-radius: 8px;
+    font-size: 12px;
+    text-decoration: none;
+    border:3.5px double white;
+    padding:8px 14px 8px 14px;
+}
+
+.profile-card{
+    
+    color: white;
+    width:20rem;
+    height:29rem;
+    background: rgb(0, 0, 0);
+    border-radius: 12px;
+    border:1px solid lightgray;
+    box-shadow: 1px 6px 32px 1px gray;
+}
+
+.profile-card-content-column{
+    display: flex;
+}
+
+.profile-card-content-column{
+    flex-direction:column;
+}
+
+.profile-card-content-column{
+
+    align-items: center;
+}
+
+
+
+
+.profile-image{
+    width:4rem;
+    height: auto;
+}    
+
+.name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.country{
+
+    margin-top: -10px;
+    font-size: 13px;
+    color:white;
+}
+
+.job-post{
+  
+    margin-top:-20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.line,.line-2{
+    width:18rem;
+    background: white;
+}
+
+
+.line{
+    width:18rem;
+    height:.1rem;
+    margin-top: -18px;
+}
+
+
+.line-2{
+    width:20rem;
+    height:.01rem;
+
+}
+
+.skills-heading{
+    margin-left:13px;
+
+}
+
+.skills-row{
+    padding-left: 12px;
+    gap:10px;
+
+}
+
+
+.skills{
+    margin-left: 2px;
+    font-family: Montserrat;
+    background: black;
+    color:white;
+    font-size: 12px;
+    border:1px solid white;
+    border-radius: 7px;
+    padding:6px 8px 6px 8px;
+}

@@ -1,0 +1,252 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.mobile-view-row,.grocery-products-box,.products-boxes-row,.bottom-mobile-view-icons-row,.top-bar-row,.grocery-items-all-content-container-row,.grocery-items-boxes-row,.product-items-name-price-column,.add-remove-buttons-column,.grocery-items-images-column,.all-product-items-name-price-column,.all-add-remove-buttons-column,.grocery-items-boxes-column{
+    display: flex;
+}
+
+.mobile-view-row,.products-boxes-row,.bottom-mobile-view-icons-row,.top-bar-row,.grocery-items-boxes-row,.grocery-items-all-content-container-row{
+    flex-direction: row;
+}
+
+.product-items-name-price-column,.add-remove-buttons-column,.grocery-items-images-column,.all-product-items-name-price-column,.all-add-remove-buttons-column,.grocery-items-boxes-column{
+    flex-direction: column;
+}
+
+.grocery-items-boxes-column{
+    justify-content: space-around;
+}
+
+.grocery-items-all-content-container-row{
+    justify-content: space-between;
+}
+
+.grocery-items-all-content-container-row{
+color: rgb(98, 39, 0);
+    margin-top: -530px;
+    margin-left: 20px;
+}
+
+.all-product-items-name-price-column{
+    gap:47px;
+
+}
+
+.all-add-remove-buttons-column{
+    gap:45px;
+margin-left: -10px;
+}
+
+.top-bar-row{
+justify-content: stretch;
+    gap:90px;
+}
+
+.top-bar-icon{
+    font-size: 22px;
+    color:white;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.products-boxes-row{
+    gap:10px;
+}
+
+.grocery-products-box{
+    flex-direction: column;
+}
+
+.grocery-products-box{
+    align-items: center;
+}
+
+.mobile-view-row{
+    margin-top: -15px;
+    gap:70px;
+    justify-content: center;
+}
+
+.mobile-view{
+background:white;
+    margin-top:35px;
+    width:21.2rem;
+    height:41.2rem;
+    border-radius:15px;
+    box-shadow: 2px 3px 12px 2px lightgray;
+    padding: 10px;
+}
+
+.top-bar-heading{
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-family: 'Roboto';
+    color:white;
+    text-align: center;
+}
+
+.top-bar{
+    height:6rem;
+    width:22.5rem;
+    background:rgb(233, 129, 17);
+    margin-top: -9.8px;
+    margin-left: -10px;
+    border-radius: 8px;
+}
+
+.grocery-products-icons{
+    width:2.5rem;
+    height: auto;
+}
+
+.grocery-products-box,.bottom-grocery-products-boxes{
+ padding:10px;
+    width:5.2rem;
+    border-radius:8px;
+background: white;
+border:1px solid whitesmoke;
+box-shadow: .2px .2px 4px .2px gray;
+}
+
+
+.grocery-products-box{
+    
+    padding:10px;
+       width:5.2rem;
+       height: 5rem;   
+       border-radius:8px;
+       color:black;
+       background:white;
+    }
+   
+    .grocery-products-box:active{
+        background: whitesmoke;
+    }
+
+.bottom-grocery-products-boxes{
+
+    height: 3rem;
+    margin-top: px;
+}
+
+.products-links{
+    color:white;
+    text-decoration: none;
+}
+
+.grocery-products-name{
+    font-size:12px;
+}
+
+
+.bottom-mobile-view-icons-row{
+    background:white;
+padding:10px 23px 10px 53px;
+z-index: +1;
+    gap:90px;
+    border-bottom-right-radius:8px ;
+    border-bottom-left-radius:9px ;
+    margin-left: -368px;
+    margin-top: 35px;
+    height:24px;
+    box-shadow: .2px .2px 18px .2px lightgray;
+}
+
+.bottom-mobile-view-icons{
+    
+    padding-right: 10px;
+    font-size: 25px;
+    color:gray;
+}
+
+.grocery-items-boxes{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background:rgb(255, 231, 186);
+    width:22.5rem;
+    height:7rem;
+    margin-left: -10px;
+}
+
+.grocery-items-images{
+    border-radius: 200px;
+    margin-top: 10px;
+    margin-left: -10px;
+    height:auto;
+}
+
+
+.grocery-items-images:nth-child(1){
+    width:5rem;
+}
+
+
+.grocery-items-images:nth-child(2){
+    margin-top: -6px;
+    width:5rem;
+}
+
+
+.grocery-items-images:nth-child(3){
+    margin-top: 13px;
+    height: 3.5rem;
+}
+
+
+.grocery-items-images-column{
+    margin-top: 5px;
+    gap:85px;
+}
+.product-items-name-price-column{
+    margin-top:10px;
+    margin-left: 10px;
+}
+
+.product-items-price{
+    font-family: 'Roboto';
+ 
+}
+
+.add-remove-buttons-column{
+ margin-left: 78px;
+    justify-content:center;
+    
+}
+
+
+.add-remove-buttons{
+    cursor: pointer;
+    border-radius:200px;
+    padding:2px 2px 2px 2px 4px;
+    font-size: 22px;
+    border:1px solid transparent;
+    box-shadow: .2px .2px 2.3px .2px black;
+    color:black;
+ background:rgb(255, 255, 255);
+}
+
+.cart-box{
+    margin-left: -11px;
+    padding-top: 10px;
+    justify-content:space-evenly;
+    display: flex;
+    flex-direction: row;
+    width:22.5rem;
+border-bottom-left-radius: 8px;
+border-bottom-right-radius: 8px;
+    height:4rem;
+background: rgb(196, 88, 0);
+}
+
+.cart-text{
+    text-decoration: none;
+ text-align: center;
+    color:white;
+margin-top: 5px;
+padding-left: 10px;
+}
+
+.cart-icon{
+    font-size: 23px;
+}

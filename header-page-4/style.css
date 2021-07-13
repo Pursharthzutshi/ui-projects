@@ -1,0 +1,99 @@
+body{
+    font-family: Montserrat;
+    margin:0;
+    background-image: ;
+}
+
+ul,.header-row,.buttons-row,.header-right-side-content{
+    display: flex;
+}
+
+.header-right-side-content{
+    padding:70px 50px 10px 60px;
+    gap:30px;
+    flex-direction: column;
+}
+
+.header-row{
+    justify-content: space-between;
+}
+
+
+ul{
+
+    gap:40px;
+}
+
+li{
+
+    list-style: none;
+}
+
+a{
+    border-radius: 8px;
+    box-shadow: .2px .2px 7px .2px rgb(175, 36, 250);
+    background:rgb(190, 69, 255) ;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border:1px solid transparent;
+    padding:8px 25px 8px 25px;
+    color:white;
+    text-decoration: none;
+}
+
+.header{
+    color:white;
+    padding-right: 60px;
+    padding-left: 60px;
+    background:linear-gradient(to left,rgb(93, 11, 137),rgb(49, 0, 76)) ;
+    height: 60vh;
+    background:linear-gradient(to left,rgb(93, 11, 137),rgb(62, 0, 74)) ;
+
+}
+
+h1{
+    text-transform: uppercase;
+
+}
+
+h2{
+    padding-top: 60px;
+    font-size: 18px;
+    line-height:40px ;
+    text-transform: uppercase;
+}
+
+svg{
+    border-top: 10px solid rgb(195, 103, 245);
+}
+
+.icon-image{
+    margin-left: 30px;
+    width:10rem;
+    height: auto;
+}
+
+.buttons-row{
+    margin-left: -80px;
+    gap:30px;
+}
+
+.buttons{
+    border-radius: 200px;
+    padding:8px 13px 8px 18px;
+}
+
+.buttons:nth-child(1){
+    border:2px solid rgb(253, 48, 253);
+    box-shadow: .2px .2px 7px .2px rgb(247, 6, 255);
+    color:white;
+    background: linear-gradient(to left,rgb(166, 24, 243),rgb(161, 74, 208));
+}
+
+.buttons:nth-child(2){
+    border:2px solid white;
+    box-shadow: .2px .2px 7px .2px rgb(253, 253, 253);
+    color:black;
+    background: white;
+}

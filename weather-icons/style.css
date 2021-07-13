@@ -1,0 +1,110 @@
+body{
+    font-family: Montserrat;
+    background: rgb(240, 240, 240);
+}
+
+.container,.icons-row{
+    display: flex;
+}
+
+.container,.icons-row{
+    flex-direction: row;
+}
+
+h2{
+    margin-top: 10px;
+    color:white;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.container{
+    margin-left: 220px;
+    width:70%;
+    justify-content: center;
+}
+
+.icons-row,.container{
+    border-radius:10px;
+    box-shadow: 2px 2px 10px 2px rgb(255, 235, 235);
+    gap:75px;
+}
+
+.icons-row{
+    background: linear-gradient(to left,rgb(255, 255, 255),rgb(253, 251, 251));
+    padding: 30px;
+}
+
+.container{
+    background: linear-gradient(to left,rgb(34, 32, 32),rgb(41, 41, 41));
+    margin-top: 200px;
+    padding: 32px;
+}
+
+.icons{
+    color:white;
+}
+
+.icons{
+    padding: 12px;
+    border-radius: 8px;
+    border:1px solid transparent;   
+    font-size: 50px;
+}
+
+.icons:nth-child(1){
+    background: linear-gradient(to left,rgb(251, 188, 71),rgb(206, 189, 0));
+    box-shadow:
+        2px 2px 1px 2px rgb(62, 62, 1),
+        2px 2px 1px 2px rgb(74, 74, 1),
+        2px 2px 1px 2px rgb(57, 57, 1),
+        2px 2px 1px 2px rgb(71, 71, 4);
+}
+
+.icons:nth-child(2){
+    background: linear-gradient(to left,rgb(236, 169, 43),rgb(255, 142, 21));
+    box-shadow:
+        2px 2px 1px 2px rgb(62, 62, 1),
+        2px 2px 1px 2px rgb(74, 74, 1),
+        2px 2px 1px 2px rgb(57, 57, 1),
+        2px 2px 1px 2px rgb(71, 71, 4);
+}
+
+
+.icons:nth-child(3){
+    background: linear-gradient(to left,rgb(91, 91, 91),rgb(64, 63, 63));
+    box-shadow:
+        2px 2px 1px 2px black,
+        2px 2px 1px 2px black,
+        2px 2px 1px 2px black,
+        2px 2px 1px 2px black;
+}
+
+
+.icons:nth-child(4){
+    background: linear-gradient(to left,rgb(113, 253, 249),rgb(14, 208, 195));
+    box-shadow:
+        2px 2px 1px 2px rgb(1, 52, 51),
+        2px 2px 1px 2px rgb(4, 182, 176),
+        2px 2px 1px 2px rgb(7, 165, 158),
+        2px 2px 1px 2px rgb(10, 169, 161);
+}
+
+.icons:nth-child(5){
+
+    background: linear-gradient(to left,rgb(70, 178, 255),rgb(44, 166, 253));
+    box-shadow:
+        2px 2px 1px 2px rgb(30, 30, 235),
+        2px 2px 1px 2px rgb(30, 30, 235),
+        2px 2px 1px 2px rgb(30, 30, 235),
+        2px 2px 1px 2px rgb(30, 30, 235);
+}
+
+.icons:nth-child(6){
+    background: linear-gradient(to left,rgb(75, 75, 171),rgb(30, 30, 108));
+    box-shadow:
+        2px 2px 1px 2px rgb(117, 117, 241),
+        2px 2px 1px 2px rgb(30, 30, 235),
+        2px 2px 1px 2px rgb(30, 30, 235),
+        2px 2px 1px 2px rgb(30, 30, 235);
+}

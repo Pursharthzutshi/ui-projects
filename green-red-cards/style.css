@@ -1,0 +1,82 @@
+body{
+    font-family: Montserrat;
+    padding:0;
+    margin:0;
+    background: linear-gradient(rgb(209, 8, 8),rgb(248, 124, 124));
+}
+
+.inner-card-column{
+    display: flex;
+}
+
+.inner-card-column{
+    flex-direction: column;
+}
+
+.half-front-page{
+    clip-path: polygon(0% 0%,0% 100%,100% 0%,0% 0%);
+    background: linear-gradient(rgb(84, 209, 59),rgb(37, 174, 10));
+    height:100vh;
+}
+
+.green-card,.red-card{
+    color:white;
+    width:15rem;
+    height:20rem;
+    border-radius:8px;
+    padding-bottom: 20px;
+
+}
+
+.green-card{
+    margin-top:5rem;
+    margin-left:16rem;
+    background: linear-gradient(rgb(41, 155, 9),rgb(34, 150, 2));
+    border:12px double rgb(60, 223, 60);
+    box-shadow: 2px 12px 32px 2px rgb(3, 69, 9);
+}
+
+.red-card{
+    background: linear-gradient(rgb(123, 7, 7),rgb(127, 3, 3));
+    margin-top:-26rem;
+    margin-left:58rem;
+    border:12px double red;
+    box-shadow: 2px 12px 32px 2px rgb(94, 2, 2);
+
+}
+
+.image-icon{
+    width:6rem;
+    height:6rem;
+    margin-left: 70px;
+}
+
+p{
+    letter-spacing: 1.5px;
+    line-height: 32px;
+    text-align: center;
+}
+
+.button{
+    font-family:'Roboto';
+    border-radius:30px;
+    background: white;
+    margin-left:48px;
+    width:40%;
+    text-align:center;
+    color:black;
+    border:1px solid white;
+    box-shadow: 2px 2px 68px 2px white;
+    padding:2px 26px 2px 26px;
+    text-decoration:none;
+}
+
+.card-heading{
+    font-size: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+body{
+    font-family: 'Montserrat';
+    background: linear-gradient(rgb(255, 202, 202),rgb(255, 159, 199),rgb(253, 187, 198));
+}
+
+.container,.circle-row,.left-sidebar,.middle-box,.box-container,.boxes,.buttons-container{
+    display: flex;
+}
+
+.container,.circle-row,.box-container,.buttons-container{
+    flex-direction: row;
+}
+
+.left-sidebar,.middle-box,.boxes{
+    flex-direction: column;
+}
+
+ion-icon{
+    font-size: 2rem;
+    border:1px solid transparent;
+    padding:10px 15px 10px 15px;
+    border-radius: 4px;
+    box-shadow: .2px .2px 4px .2px rgb(228, 111, 160);
+    color:white;
+    background: linear-gradient(to left,rgb(255, 170, 214),rgb(248, 166, 214),transparent);
+}
+
+.left-sidebar{
+    justify-content: space-around;
+}
+
+.left-sidebar,.container,.boxes{
+    align-items: center;
+}
+
+.container,.middle-box{
+    justify-content: center;
+}
+
+.circle-row{
+    gap:20px;
+    justify-content: center;
+    position: relative;
+}
+
+.circle{
+    width: 10rem;
+    height: 10rem;
+    background: linear-gradient(rgb(255, 237, 245),rgb(255, 252, 254));
+    border-radius: 200px;
+    position: absolute;
+    box-shadow: .2px .2px 6px .2px rgb(255, 255, 255),
+    .2px .2px 8px .2px rgb(255, 255, 255),
+    .2px .2px 8px .2px rgb(255, 255, 255),
+    .2px .2px 8px .2px rgb(255, 255, 255);
+}
+
+.circle:nth-child(1){
+    left:680px;
+    top:-240px;
+}
+
+.circle:nth-child(2){
+    left:-90px;
+    top:180px;
+}
+
+.left-sidebar,.middle-box{
+    background: transparent;
+    border:2px solid transparent;
+}
+
+.left-sidebar{
+    margin:100px 0px 0px 0px;
+    box-shadow: .2px .2px 7px .2px rgb(164, 78, 114);
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    backdrop-filter: blur(10px);
+    width: 10rem;
+    height: 33rem; 
+}
+
+.middle-box{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: .2px .2px 12px .2px rgb(164, 78, 114);
+    opacity: .9;
+    margin:100px 0px 0px 3px;
+    width: 40rem;
+    height: 33rem;
+    backdrop-filter: blur(2px);
+    gap:50px;
+}
+
+.box-container{
+    gap:50px;
+    margin: 0px 0px 0px 50px;
+}
+
+.boxes{
+    padding-bottom: 8px;
+    margin: 10px 0px 0px 0px;
+    box-shadow: .2px .2px 3px .2px white;
+    width: 15rem;
+    height: 12rem;
+    background: white;    
+}
+
+.boxes:active{
+    cursor: pointer;
+    box-shadow: .2px .2px 5px .2px white;
+}
+
+img{
+    margin: 10px 0px 0px 0px;
+    width: 4rem;
+    height: auto;
+}
+
+.line{
+    width: 100%;
+    height: .2rem;
+    background: black;
+    box-shadow: .2px .2px 2px .2px black;
+}
+
+.buttons-container{
+    gap:10px;
+    padding:20px 0px 0px 0px;
+}
+
+a{
+    font-family: 'Roboto';
+    color:black;
+    padding:6px 16px 6px 16px;
+    text-decoration: none;
+    box-shadow: .2px .2px 2px .2px gray;
+}
+
+a:focus{
+    transition: .2s;
+    background: linear-gradient(to left,rgb(255, 202, 202),rgb(255, 159, 199),rgb(253, 187, 198));
+    color:white;
+}
+
+ion-icon:hover{
+    background: white;
+    box-shadow: .2px .2px 4px 2px rgb(255, 189, 216);
+    color:pink;
+    cursor: pointer;
+
+}

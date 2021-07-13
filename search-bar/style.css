@@ -1,0 +1,39 @@
+body{
+    background: rgb(161, 93, 245);
+}
+
+.search-icon{
+font-size: 16px;
+color:white;
+
+    margin-left: -30px;
+}
+
+.search-bar{
+    margin-top:200px;
+margin-left:200px;
+    width:220px;
+    box-shadow: 3px 3px 18px 1px rgb(117, 12, 247);
+    letter-spacing: 2px;
+    color:white;
+    padding:9.3px;
+    border:3px solid white;
+    outline:none;
+    border-radius:18px;
+    font-family: 'Roboto';
+    padding-left: 10px;
+    background: linear-gradient(rgb(146, 11, 220),rgb(153, 116, 187));
+}
+
+
+.search-bar::placeholder{
+padding-left: 5px;
+    color:white;
+    font-size: 13px;
+}
+
+.search-bar:focus{
+    transform:scaleX(1.06) rotate(0.8deg) skew(10px);
+    transition: .7s;
+background: transparent;
+}

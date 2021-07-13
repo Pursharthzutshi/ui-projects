@@ -1,0 +1,141 @@
+body{
+    background: rgb(255, 146, 126);
+    font-family: Montserrat;
+}
+
+.status-box,.top-part-row,.top-part-column,.bottom-icons-row,.button-icons-row,.container{
+    display: flex;
+}
+
+.container{
+    padding-top: 120px;
+    justify-content: center;
+}
+
+.top-part-row,.bottom-icons-row,.button-icons-row{
+    flex-direction: row;
+}
+
+.top-part-column{
+    flex-direction: column;
+}
+
+.status-box{
+    flex-direction: column;
+}
+
+.status-box{
+    justify-content: center;
+}
+
+.top-part-column{
+    margin-left: -30px;
+}
+
+.status-box{
+    padding-left: 20px;
+    border-radius: 8px;
+    width:27.8rem;
+    height: 13.8rem;
+    background:rgb(255, 255, 255);
+    box-shadow: .5px .5px 10px .5px rgb(54, 1, 1);
+
+}
+
+select{
+    margin: -13px 0px 0px -4px;
+    cursor:pointer;
+    border:1px solid transparent;
+    font-size: 12.5px;
+    height:20px;
+    width:82px;
+    border-radius: 4px;
+    outline: none;
+    letter-spacing:2.3px;
+
+}
+
+.name,select{
+    color: rgb(44, 44, 44);
+    font-family: 'Roboto';
+}
+
+.name{
+    margin-top: 30px;
+    font-size: 19px;
+    letter-spacing: 2.3px;
+}
+
+.top-part-row{
+    margin-top: -105px;
+    margin-left: 40px;
+    gap:70px;    
+}
+
+.profile-image{
+    border:4px double rgb(225, 100, 84);
+    border-radius: 200px;   
+    width:auto;
+    height: 3.5rem;
+    margin-top: 28px;
+    margin-left: -25px;
+}
+
+.status-field{
+    outline: none;
+    margin-left: -100px;
+    background: white;
+    border-top:1px solid white;
+    border-right:1px solid white;
+    border-left:1px solid white;
+    width:24.3rem;
+    line-height: 40px;
+}
+
+.status-field::placeholder{
+
+    padding-left:8px;
+    margin-top: 10px;
+    letter-spacing: 2.5px;
+    font-size: 13px;
+    font-family: Montserrat;
+}
+
+.bottom-icons-row{
+    gap:23px;
+    margin-left: 18px;
+}
+
+.icons{
+
+    color: rgb(225, 100, 84);
+    font-size: 25px;
+}
+
+.button-icons-row{
+
+    justify-content: space-between;
+}
+
+.button{
+    border-radius:8px;
+    background:linear-gradient( to left,rgb(240, 78, 57), rgb(251, 57, 32));
+    padding:5.7px 23px 5.7px 23px;
+    text-decoration: none;
+    width:20px;
+    border:1px solid rgb(225, 100, 84);
+    margin:0px 38px 0px 0px;
+    box-shadow: .8px .8px 22px .8px rgb(218, 217, 217);
+    color:white;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.top-icon{
+
+    font-size: 20px;
+    color:rgb(225, 100, 84);
+    margin-left: 24.8rem;
+    padding-bottom: 50px;
+
+}

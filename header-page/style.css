@@ -1,0 +1,126 @@
+body{
+    background-image:linear-gradient(rgba(3, 44, 44, 0.5),rgba(28, 29, 29, 0.6)),url('images/pexels-pixabay-326058.jpg');
+    background-position: center;
+    background-size: cover;
+    font-family: Montserrat;
+    padding: 0;
+    margin:0;
+}
+
+ul,.top-heading-nav-bar-row,.header-buttons-row,.header-text-button-icon-row,.header-text-button-column,.header-bottom-row{
+    display: flex;
+}
+
+ul,.top-heading-nav-bar-row,.header-buttons-row,.header-text-button-icon-row,.header-bottom-row{
+    flex-direction: row;
+}
+
+.header-bottom-row{
+    justify-content: space-around;
+    margin-top: -7rem;
+    margin-left: 60rem;
+
+}
+
+.header-text-button-column{
+    flex-direction: column;
+}
+
+.top-heading{
+    color:white;
+    font-family: 'Montserrat';
+    font-size: 23px;
+    margin-top:13px;
+    margin-left: 70px;
+    letter-spacing: 4px;
+
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+
+    justify-content: space-around;
+}
+
+.top-heading-nav-bar-row{
+
+    justify-content: space-evenly;
+}
+
+ul{
+    padding-right:20px;
+    margin-left: 22rem;
+    gap:30px;
+}
+
+a{
+    letter-spacing: .2px;
+    border-radius:6px;
+    padding:4px 16px 4px 16px ;
+    border:1px solid white;
+    box-shadow: .8px .8px 3.2px .8px white;
+    color:rgb(121, 121, 238);
+    background: linear-gradient(rgb(14, 160, 179),rgb(77, 126, 224));
+    color:white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.header{
+    clip-path: polygon(0% 0%,100% 0%,100% 65%,0% 100%);
+    background-image:linear-gradient(rgba(72, 138, 121, 0.5),rgba(48, 195, 211, 0.6)),url('images/pexels-pixabay-326058.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.header-text{
+    color: white;;
+    letter-spacing: 3px;
+    line-height:47px;
+    padding-left: 80px;
+    transform: translateY(200%);
+    font-size: 28px;
+}
+
+h1{
+    text-align: center;
+    transform: translateY(20rem);
+    color:rgb(10, 10, 120);
+}
+
+.header-buttons-row{
+    gap:20px;
+    margin-left: 80px;
+    margin-top: 180px;
+}
+
+.header-buttons{
+    background: linear-gradient(rgb(1, 24, 27),rgb(10, 42, 106));
+}
+
+.line{
+    width:100%;
+    height:2px;
+    background:white;
+}
+
+.icon-image{
+    margin-left: 170px;
+    margin-top: 170px;
+    width:12rem;
+    height:12rem;
+}
+
+
+.header-bottom-button{
+    color:black;
+    border-radius:2px;
+    padding:6px 25px 6px 25px ;
+    background: rgb(255, 255, 255);
+    border:none;
+    box-shadow: none;
+}

@@ -1,0 +1,297 @@
+body{
+    background: rgb(248, 240, 255);
+    font-family: Montserrat;
+}
+
+.container,.main-container,.mobile-view,.mobile-view-2,.box,.box-container,.box div,ul,.bar div,.footer-icon,.job-boxes-container,.job-boxes div{    
+    display: flex;
+}
+
+.button,.top-bar,.box,a,ion-icon{
+    box-shadow: .2px .2px 3px .2px rgb(172, 172, 172);
+}
+.container,.box div,ul,.footer-icon{
+    flex-direction: row;
+}
+
+.mobile-view .top-bar h1,.mobile-view-2 .top-bar h1,ion-icon,a,.footer-icon ion-icon {
+    color:white;
+}
+
+.mobile-view-2,h3,.mobile-view-2 .job-boxes .company-name,.mobile-view,p{
+    color:black;
+}
+
+.mobile-view,.mobile-view-2,.box,.box-container,.bar div{
+    align-items: center;
+    flex-direction: column;
+}
+
+.mobile-view .top-bar,.mobile-view-2 .top-bar{
+    box-shadow: .2px .2px 5px .2px rgb(136, 17, 247);
+}
+
+.mobile-view,.mobile-view-2{
+    width:21.2rem;
+    padding:0px 20px 0px 22px;
+    height:45.2rem;
+    box-shadow: .2px .2px 3px .2px rgb(17, 1, 41);
+    margin: -18px 0px 0px 0px;
+    background: white;
+}
+
+.mobile-view .top-bar h1,.mobile-view-2 .top-bar h1{
+    letter-spacing: 3px;
+    font-size: 20.5px;
+    padding:0px 2px 2px 12px;
+}
+
+.bar div{
+    margin: -8px 0px 0px 0px;
+}
+
+.icon-image{
+    width:2.7rem;
+    height: auto;
+    border-radius:none;
+    background:white;
+    border:2px solid rgb(235, 223, 247);
+    padding:2px 2px 2px 2px;
+    box-shadow: .2px .2px 22px .2px whitesmoke;
+}
+
+.box-container{
+    margin: -8px 0px 0px 0px;
+}
+
+.mobile-view .top-bar{
+    text-align: center;
+    margin: 0px 0px 0px -3px;
+    height: 3.2rem;
+    background:linear-gradient(to left,rgb(82, 3, 155),rgb(37, 4, 62));
+    width:112.6%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.mobile-view-2 .top-bar{
+    padding:2px 20px 2px 12px;
+    margin: 0px 0px 0px -1px;
+    height: 6.5rem;
+    background:linear-gradient(to left,rgb(82, 3, 155),rgb(37, 4, 62));
+    width:103%;
+}
+
+.mobile-view-2 .top-bar h1{
+    margin: -7px 0px 5px -11px;
+}
+
+.top-bar-links{
+    margin: 0px 0px 0px -1px;
+    height: 3rem;
+    box-shadow: none;
+    width:112%;
+    background: none;
+    border-left:3px solid white;
+}
+
+.top-bar input{
+    box-shadow: .2px .2px 6px .2px white;
+    width:95%;
+    padding:6.5px 2px 7px 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.top-bar input::placeholder{
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+}
+
+ion-icon{
+    background:rgb(99, 13, 155) ;
+    margin: 10px 0px -5px -30px;
+    padding:2px 2px 2px 2px;
+    border-radius: 200px;
+}
+
+ul{
+    margin:18px 0px 0px -20px;
+    gap:10px;
+}
+
+li{
+    font-family: 'Roboto';
+    list-style: none;
+}
+
+.main-container{
+    gap:40px;
+    justify-content: center;
+}
+
+.container{
+    gap:30px;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.box div{
+    gap:20px;
+}
+
+p{
+    font-family: 'Roboto';
+    letter-spacing: .5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+a{
+    margin: 10px 0px 0px 0px;
+    text-decoration: none;
+    border-radius: 200px;
+    font-family: 'Roboto';
+    background:linear-gradient(to left,rgb(76, 4, 148),rgb(94, 16, 154));
+    padding:6px 16px 6px 16px;
+    background-color: transparent;
+    box-shadow: .2px .2px 3px .2px rgb(107, 10, 204);
+}
+
+a:hover{
+    background:black;
+    color:white;
+    box-shadow: .2px .2px 6px .2px lightgray;
+    transition: .3s;
+    border-radius: 2px;
+}
+
+h2,h3{
+    letter-spacing:2.5px;
+}
+
+h2{
+    padding:0px 0px 0px 10px;
+    font-size: 15px;
+}
+
+.box{
+    padding:2px 21px 2px 21px;
+    width:100%;
+    background:transparent;
+    box-shadow: .2px .2px 2px .2px gray;
+    border-bottom: 5px solid rgb(137, 28, 220);
+}
+
+.job-boxes-container{
+    gap:20px;   
+}
+
+.job-boxes{
+    padding-left: 10px;
+    background: white;
+    box-shadow: .2px .2px 2px .2px gray;
+    width:10rem;
+    height: 10rem;
+}
+
+.mobile-view-2 .job-boxes-container .job-boxes a{
+    padding:5px 22px 7px 22px ;
+    letter-spacing: 2.5px;
+    font-size: 13px;
+}
+
+.mobile-view-2 .job-boxes-container .job-boxes h2{
+    margin-left: -10px;
+    font-size: 14.5px;
+}
+
+.job-boxes .icon-image{
+    margin:-2px 0px 0px 10px;
+}
+
+.mobile-view-2 .job-boxes p{
+    margin:-10px 0px 0px -10px;
+    font-size: 12px;
+    color:gray;
+    letter-spacing: 1px;
+}
+
+.mobile-view-2 .job-boxes .company-name{
+    margin:1px 0px 0px 2px;
+}
+
+.mobile-view-2 .job-boxes img{
+    width: 2rem;
+}
+
+.box:nth-child(1){
+    height: 18rem;
+}
+
+.box:nth-child(3){
+    height: 10.5rem;
+    border-bottom: none;
+}
+
+.mobile-view .bar{
+    height: 3.5rem;
+    width:95%;
+    background: white;
+    box-shadow: .2px .2px 2px .2px gray;
+    border-left: 4px solid rgb(60, 0, 117);
+    margin: 7px 0px 0px 0px;
+    padding:5px 0px 1px 0px;
+}
+
+.mobile-view-2 .box{
+    width:10rem;
+    border-bottom: none;    
+}
+
+.box:nth-child(5){
+    height: 7rem;
+}
+
+.profile-image{
+    margin: 20px 0px 0px 0px;
+    box-shadow: .2px .2px 6px .2px black;
+    border-radius:200px;
+    width: 5rem;
+}
+
+.box .bar img{
+    width:1.5rem;
+    padding:2px 2px 2px 12px;
+}
+
+.bar div{
+    gap:-20px;
+}
+
+span:nth-child(2){
+    font-size: 12px;
+    margin: -32px 0px 0px -8px;
+}
+
+.mobile-view .footer-icon,.mobile-view-2 .footer-icon{
+    box-shadow: .2px .2px 2px .2px black;
+    width:100%;
+    height: 2.7rem;
+    margin:  -55px -10px 0px -13px;
+    padding:0px 12px 15px 30px;
+    justify-content: center;
+    gap:100px;
+    background:linear-gradient(to left,rgb(46, 5, 84),rgb(58, 1, 111));
+}
+
+.mobile-view-2 .footer-icon{
+    margin:  10px -10px 0px -13px;
+}
+
+.footer-icon ion-icon{
+    box-shadow:.2px .2px 1.2px .2px black;
+    font-size: 1.2rem;
+    padding:6px 6px 6px 7px;
+    border-radius: 2px;
+}

@@ -1,0 +1,86 @@
+body{
+    background:rgb(7, 7, 7) ;
+    font-family: Montserrat;
+
+}
+
+h1{
+    padding:5px;
+    color:rgb(64, 64, 64);
+    border:1px solid whitesmoke;
+    background: white;
+    text-align: center;
+    margin-left: 208px;
+    width:68%;
+    padding-right: 22px;
+    margin-top: 58px;
+}
+
+.heading-icon-image{
+    width:3rem;
+    height:auto;
+    margin-top: 30px;
+    margin-left: -190px;
+}
+
+.container,.box,.heading-row{
+    display: flex;
+}
+
+.container,.heading-row{
+    flex-direction:row;
+}
+
+.container{
+    border-radius: 30px;
+gap:100px;
+margin-left: 70px;
+    width:80%;
+    border-top:65px double white;
+    border-left:55px double white;
+    border-bottom:45px solid white;
+    border-right:45px solid white;
+    margin-top: -27px;
+    justify-content: center;
+}
+
+.box{
+    flex-direction:column;
+}
+
+.box{
+
+    color:rgb(254, 234, 255);
+    width:16rem;
+    height:26rem;
+    padding:13px;
+}
+
+.icon-image{
+    width:10rem;
+    height:auto;
+}
+
+.container,.box{
+
+    align-items: center;
+}
+
+p{
+    letter-spacing: .8px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.button{
+    font-size: 16.2px;
+    border-radius:200px; 
+    letter-spacing: 2.5px;
+    color:black;
+    background: white;
+    box-shadow: 2px 2px 32px 1px white;
+    background:;
+    border:1px solid white;
+    padding:12px 32px 12px 32px;
+}

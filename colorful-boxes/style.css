@@ -1,0 +1,42 @@
+.box-row{
+    display: flex;
+}
+
+.box-row{
+    flex-direction: row;
+}
+
+.box,.box-2{
+    width:18rem;
+    height: 18rem;
+}
+
+.box:nth-child(1){
+    background: rgb(240, 104, 104);
+height:20rem;
+}
+
+.box:nth-child(2){
+    background: rgb(95, 250, 95);
+
+}
+
+
+.box:nth-child(3){
+    background:rgb(133, 133, 245);
+}
+
+.box-2:nth-child(1){
+    background: rgb(10, 0, 0);
+
+}
+
+.box-2:nth-child(2){
+    background: rgb(204, 208, 204);
+}
+
+
+.box-2:nth-child(3){
+    background:rgb(164, 18, 144);
+width:20re5;
+}

@@ -1,0 +1,129 @@
+body{
+    background: white;
+    font-family: Montserrat;
+}
+
+.container,.main-container,.mobile-view,.mobile-view-2,.icons-text-container,.middle-content-container,.left-icons-container{
+    display: flex;
+}
+
+.main-container{
+    gap:40px;
+    justify-content: center;
+}
+
+.input-fields-row,.numbers-container,.middle-content-container,.container{
+    flex-direction: row;
+}
+
+.mobile-view,.mobile-view-2,.icons-text-container{
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    gap:30px;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.mobile-view,.mobile-view-2{
+    color:white;
+    width:20rem;
+}
+
+h2{
+    letter-spacing: 3px;
+}
+
+.mobile-view{
+    height:37.3rem;    
+    background:linear-gradient(to left,rgb(120, 44, 11),rgb(93, 0, 12));
+    padding:80px 0px 10px 0px;
+    box-shadow: .2px .2px 9px .2px rgb(98, 8, 8);
+}
+
+.mobile-view-2{
+    height:41rem;
+    background:linear-gradient(to left,rgb(13, 13, 14),rgb(42, 3, 8));
+    padding:20px 0px 10px 0px;
+    box-shadow: .2px .2px 9px .2px rgb(74, 2, 12);
+
+}
+
+.profile-image{
+    background:white;
+    box-shadow: .2px .2px 6px .2px white;
+    border:3px double white;
+    border-radius: 200px;
+    width:6rem;
+    height: auto;
+}
+
+.middle-content-container{
+    gap:57px;
+}
+
+
+.right-icons{
+    box-shadow: .2px .2px 8px .2px rgb(255, 60, 0);
+    padding: 7px;
+    border-radius: 200px;
+    border:2px solid rgb(255, 60, 0);
+    background: linear-gradient(to left,rgb(174, 20, 6),rgb(105, 42, 3));
+    color:white;
+    font-size: 30px;
+}
+
+.icons-text{
+    font-size: 12px;
+}
+
+.icon-image{
+    border-radius: 200px;
+    background: white;   
+    padding: 2px;
+    border:2px solid white;
+    margin-top: 20px;
+    width:3rem;
+    height: auto;
+}
+
+.left-icons-container{
+    padding-top: 50px;
+    gap:40px;
+}
+
+.left-icons{
+    background: white;
+    padding:8px;
+    font-size: 38px;
+    border-radius: 200px;
+    color:white;
+}
+
+.left-icons:nth-child(1){
+    background:linear-gradient(to left,rgb(54, 247, 54),rgb(16, 191, 86));
+    box-shadow: .2px .2px 8px .2px rgb(54, 247, 54);
+
+}
+
+
+.left-icons:nth-child(2){
+    background:linear-gradient(to left,rgb(68, 137, 255),rgb(36, 102, 218));
+    box-shadow: .2px .2px 8px .2px rgb(68, 137, 255);
+
+}
+
+
+.left-icons:nth-child(3){
+    background:linear-gradient(to left,rgb(255, 68, 68),rgb(255, 16, 16));
+    box-shadow: .2px .2px 4px .2px red;
+
+}
+
+.name{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-family: 'Roboto';
+}

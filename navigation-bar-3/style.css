@@ -1,0 +1,119 @@
+body{
+    background: linear-gradient(90deg, #f8f8f8 50%, #000000 50%);
+    font-family: 'Montserrat';
+    clip-path: polygon(0% 0%,0% 100%,100% 100%,100% 0% );
+}
+
+.main-container,.heading-div,.container,.nav,ul,ul div,nav div{
+    display: flex;
+}
+
+.heading-div{
+    gap:70px;
+    justify-content: center;
+}
+
+.heading-div h1:nth-child(1){
+    margin:-20px 0px 0px -100px;
+}
+
+.heading-div h1:nth-child(2){
+    color:white;
+}
+
+.container,.main-container{ 
+    padding-top:40px;   
+    justify-content: center;
+    gap:90px;
+}
+
+h1{
+    text-align:center ;
+}
+
+nav{
+    margin: -20px 0px 0px 0px;
+    padding: 2px 5px 2px 35px;
+    width: 14%;
+    height: 70vh;
+    font-family: 'Roboto';
+}
+
+nav:nth-child(1){
+    background: linear-gradient(to left,rgb(25, 25, 25),rgb(42, 42, 42));
+    box-shadow: .2px .2px 15px .2px rgb(81, 80, 80);
+    margin: -30px 0px 0px 0px;
+}
+
+nav:nth-child(2){
+    background: linear-gradient(to left,rgb(255, 251, 251),rgb(236, 236, 236));
+    box-shadow: .2px .2px 9px .2px white;
+    margin: -10px 0px 0px 0px;
+}
+
+nav:nth-child(1) ul li a {
+    color:white;
+}
+
+nav:nth-child(2) ul li a{
+    color:black;
+}
+
+nav div input{
+    width: 90%;
+    margin: -0px 0px 0px 0px;
+    padding: 5px 2px 5px 2px;
+    border:1px solid transparent;
+}
+
+nav:nth-child(1) div input{
+    box-shadow: .2px .2px 4.5px .2px white;
+}
+
+nav:nth-child(2) div input{
+    box-shadow: .2px .2px 6px .2px rgb(208, 208, 208);
+}
+
+input::placeholder{
+    font-family: 'Roboto';
+    padding-left:8px;
+    letter-spacing: 2px;
+}
+
+ul div{
+    padding:10px 0px 20px 0px;
+}
+
+.main-container,.nav,ul{
+    gap:30px;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    font-family: 'Montserrat';
+    letter-spacing:2.5px;
+    text-decoration: none;
+    margin:-20px 0px 0px 30px;
+}
+
+nav:nth-child(1) ul div ion-icon{
+    color:white;
+}
+
+nav:nth-child(2) ul div ion-{
+    color:black;
+}
+
+nav ion-icon{
+    margin: 5px 0px 0px -25px;
+}
+
+ul div ion-icon{
+    margin: -1px 0px 0px -40px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,94 @@
+body{
+    background: white;
+    font-family: 'Roboto';
+}
+
+.all-cards-column{
+    display: flex;
+
+}
+
+.all-cards-column{
+    margin-top:150px;
+    flex-direction: column;
+}
+
+.all-cards-column{
+    justify-content: space-around;
+
+}
+
+.cards-row{
+    display: flex;
+}
+
+.cards-row{
+    flex-direction: row;
+}
+
+.cards-row{
+justify-content: center;
+    gap:42px;
+    margin-top:30px;
+
+}
+
+.cards,.cards-2,.cards-3{
+    opacity: .8;
+    color:white;
+    width:30rem;
+    height:6rem;
+    box-shadow: 4px 5px 8px 0px rgb(186, 183, 183);
+}
+
+.cards,.cards-2,.cards-3{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards:nth-child(1){
+    border:4px solid green;
+    color:green;
+    background: rgb(169, 236, 169);
+
+}
+
+.cards:nth-child(2){
+    border:4px solid red;
+    color:red;
+    background: rgb(248, 122, 122);
+}
+
+.cards-2:nth-child(1){
+    border:4px solid rgb(10, 120, 10);
+    color:green;
+}
+
+.cards-2:nth-child(2){
+    border:4px solid rgb(189, 10, 10);
+    color:red;
+
+}
+
+.cards-3:nth-child(1){
+    border:4px solid rgb(10, 120, 10);
+    color:white;
+    background: green;
+}
+
+.cards-3:nth-child(2){
+    border:4px solid rgb(226, 19, 19);
+    color:white;
+    background:red; 
+}
+
+.icons{
+    padding-top:10px;
+    padding-left:10px; 
+    font-size:40px;
+}
+
+.cards-notice{
+    padding-left: 15px;
+
+}

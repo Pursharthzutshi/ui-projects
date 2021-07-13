@@ -1,0 +1,63 @@
+body{
+background:rgb(0, 30, 11);
+background-repeat:no-repeat ;
+height: 58.8vh;
+}
+
+h1{
+    letter-spacing: 6px;
+    color: rgb(100, 255, 154);
+    margin-left: 370px;
+    width:54%;
+    background: rgb(0, 34, 12);
+    box-shadow: 
+    1px 1px 6px 1px rgb(4, 255, 83),
+    1px 1px 6px 1px rgb(4, 255, 83),
+    1px 1px 6px 1px rgb(4, 255, 83),
+    -2px 1px 6px 1px rgb(4, 255, 83),
+    -2px 1px 6px 1px rgb(4, 255, 83),
+    -2px 1px 6px 1px rgb(4, 255, 83);
+    text-align: center;
+    margin-top: 200px;
+    font-family: 'Montserrat';
+}
+
+.icons-row{
+    display: flex;
+}
+
+.icons-row{
+    flex-direction:row;
+}
+
+.icons-row{
+    margin-top: 100px;
+margin-left: 500px;
+gap:50px;
+}
+
+
+.icons{
+    border-radius: 200px;
+    padding:10px;
+font-size: 2.5rem;
+background:linear-gradient(rgb(108, 41, 2));
+    box-shadow: none;
+    color:white;
+}
+
+.icons{
+    border-radius: 200px;
+    padding:10px;
+font-size: 2.5rem;
+background:linear-gradient(rgb(108, 41, 2));
+transition: .5s; 
+color:rgb(22, 218, 90); 
+    box-shadow: 
+    1px 1px 16px 1px rgb(4, 255, 83),
+    1px 1px 16px 1px rgb(4, 255, 83),
+    1px 1px 16px 1px rgb(4, 255, 83),
+    -2px 1px 16px 1px rgb(4, 255, 83),
+    -2px 1px 16px 1px rgb(4, 255, 83),
+    -2px 1px 16px 1px rgb(4, 255, 83);
+}

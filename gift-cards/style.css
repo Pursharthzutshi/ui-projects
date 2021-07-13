@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto';
+    background: whitesmoke;
+}
+
+h1{
+    color:gray;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.gift-cards,.all-gift-cards,.price-row,.icons-row,.gift-cards-name-row{
+    display: flex;
+}
+
+.all-gift-cards{
+    margin-left: 30px;
+    gap:20px;
+}
+
+.price-row,.icons-row{
+    position: relative;
+    color:white;
+}
+.icons-row{
+    left:1rem;
+    top:9.5rem;
+    gap:19.9rem;
+}
+
+.price-row{
+    top:9.7rem;
+    gap:20.4rem;
+}
+
+
+.gift-cards{
+    flex-direction: column;
+}
+
+.gift-cards{
+    border:4px solid transparent;
+    border-radius:10px;
+    box-shadow: 2px 20px 20px 2px rgb(187, 186, 186);
+    width:350px;
+    height:200px;
+    color:white;
+    background: linear-gradient(rgb(225, 52, 216),rgb(137, 217, 230),rgb(5, 169, 187));
+}
+
+.price{
+    font-size: 30px;
+    position: relative;
+    left:20rem;
+    top:-22px;
+}
+
+.icons{
+    position: relative;
+    left:10.2rem;
+    top:-20px;
+    font-size:60px;    
+}
+
+.gift-card-name{
+    margin-left:10px;
+}
+
+.gift-cards:nth-child(2){
+    background: linear-gradient(rgb(36, 37, 36),rgb(31, 32, 31),rgb(7, 8, 8));
+}
+
+
+.gift-cards:nth-child(3){
+    background: linear-gradient(rgb(105, 132, 231),rgb(118, 140, 220),rgb(14, 83, 220));
+}
+
+.gift-cards:nth-child(4){
+    background: linear-gradient(rgb(37, 223, 81),rgb(91, 233, 96),rgb(7, 199, 61));
+}
+
+a{
+    border-radius:200px;
+    margin-top:110px;
+    margin-left:123px;
+    width:30%;
+    background: white;
+    background: linear-gradient(rgb(252, 248, 251),rgb(211, 218, 220),rgb(249, 253, 253));
+    text-decoration: none;
+    color:black;
+    text-align: center;
+}

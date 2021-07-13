@@ -1,0 +1,148 @@
+body{
+    font-family: Montserrat;
+}
+
+.dashboard,.left-sidebar-icons-link-row,.left-sidebar-icons-link-column,.top-sidebar-icons-row,.top-sidebar-icons-searchbar-row,.top-sidebar-middle-content-column,.left-sidebar-dasboard-row,.middle-content-box-column{
+    display: flex;
+}
+
+.dashboard,.left-sidebar-icons-link-row,.top-sidebar-icons-row,.top-sidebar-icons-searchbar-row,.left-sidebar-dasboard-row{
+    flex-direction: row;
+}
+
+.middle-content-box-column{
+    flex-direction: column;
+}
+
+
+.left-sidebar,.top-sidebar{
+    background: linear-gradient(rgb(228, 226, 226),lightgray);
+}
+
+.left-sidebar-icons-link-column,.top-sidebar-middle-content-column{
+    flex-direction: column;
+}
+
+.left-sidebar-icons-link-column{
+gap:18px;
+}
+
+.left-sidebar-dasboard-row{
+    margin:20px 0px 0px 48px;
+}
+
+.dashboard{
+    color:gray;
+    margin:31.5px 0px 0px -3px;
+    width:78%;
+    height:40.8rem;
+    background: whitesmoke;
+    box-shadow: 12px 12px 42px 2px lightgray;
+
+}
+
+
+.left-sidebar-icons-link-rowpadding-left{
+    padding-left: 0px;
+}
+
+.left-sidebar{
+    margin-left: 30px;
+    margin-top: 32px;
+    width:13rem;
+    height: 40.8rem;
+    box-shadow: 12px 12px 42px 2px lightgray;   
+}
+
+
+.left-sidebar-icons{
+    padding-left: 30px;
+    font-size:26px;
+}
+
+.left-sidebar-links{
+ letter-spacing: 3px;
+    text-decoration: none;
+    color:black;
+    margin:5px 0px 0px 20px;
+font-family: 'Roboto';
+}
+
+li{
+    list-style:none ;
+}
+
+.top-sidebar{
+    margin-left: ;
+    padding-right: 25px;
+    width:100%;
+    height:4rem;
+}
+
+.top-sidebar-icons{
+    font-size: 25px;
+}
+
+.top-sidebar-icons-row{
+    gap:30px;
+    justify-content:flex-end;
+
+}
+
+.search-bar{
+    outline:none;
+    border-radius:200px;
+    border:1px solid transparent;
+    width:30%;
+padding:6px;
+    margin-left: 70px;
+}
+
+.top-sidebar-icons-searchbar-row{
+    justify-content: space-between;
+}
+
+.search-bar-icon{
+    margin-top:.4rem;
+    margin-left: -44rem;
+}
+
+.search-bar::placeholder{
+    font-family: Montserrat;
+    padding-left:8px ;
+    letter-spacing:3px;
+}
+
+.middle-content-boxes{
+    width:10rem;
+    height:10rem;
+    background: whitesmoke;
+
+}
+
+.middle-content-boxes{
+background: black;
+}
+
+
+.middle-content-box-column{
+    margin-left: 20px;
+}
+
+.box{
+    width:10rem;
+    height:10rem;
+}
+
+.box{
+    background: black; 
+}
+
+.box:nth-child(1){
+    width:0px;
+    height:10rem;
+}
+
+.middle-content-box-column{
+    justify-content: space-around;
+}

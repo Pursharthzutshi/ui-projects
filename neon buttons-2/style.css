@@ -1,0 +1,91 @@
+body{
+    background: rgb(37, 37, 37);
+    font-family: Montserrat;
+}
+
+.icons-row,.buttons-row{
+    display: flex;
+}
+
+.icons-row,.buttons-row{
+    justify-content: space-around;
+}
+
+.buttons-row{
+    margin-top: 60px;
+    margin-left: 80px;
+    flex-direction: row;
+}
+
+.buttons{
+    color:black;
+}
+
+.buttons{
+    text-decoration: none;
+    padding:8px 18px 8px 18px;
+  border:1px solid transparent;  
+}
+
+.buttons{
+    background: linear-gradient(#47f7fd,rgb(93, 250, 245));
+box-shadow: 
+.2px .2px 20px .2px #3cfafd,
+.2px .2px 20px .2px #3cfafd,
+.2px .2px 20px .2px #00fbff,
+.2px .2px 20px .2px #00fbff;
+}
+
+
+.buttons:nth-child(2){
+    background: linear-gradient(rgb(65, 182, 255),rgb(36, 127, 255));
+box-shadow: 
+.2px .2px 20px .2px #16a6ff,
+.2px .2px 20px .2px #2ebffd,
+.2px .2px 20px .2px rgb(57, 173, 255),
+.2px .2px 20px .2px rgb(17, 160, 248);
+}
+
+.buttons:nth-child(3){
+    background: linear-gradient(rgb(247, 148, 42),rgb(255, 196, 133));
+box-shadow: 
+.2px .2px 20px .2px #f86e2e,
+.2px .2px 20px .2px #f86e2e,
+.2px .2px 20px .2px #f86e2e,
+.2px .2px 20px .2px #f86e2e;
+}
+
+.buttons:nth-child(4){
+    background: linear-gradient(rgb(251, 85, 85),rgb(250, 120, 127));
+box-shadow: 
+.2px .2px 20px .2px #ff3c3c,
+.2px .2px 20px .2px #ff5a62,
+.2px .2px 20px .2px #ff414b,
+.2px .2px 20px .2px #ff2c37;
+}
+
+.buttons:nth-child(5){
+    background: linear-gradient(rgb(251, 85, 85),rgb(250, 120, 127));
+box-shadow: 
+.2px .2px 20px .2px #0a0707,
+.2px .2px 20px .2px #ff5a62,
+.2px .2px 20px .2px #ff414b,
+.2px .2px 20px .2px #ff2c37;
+}
+
+.icons{
+    border:2px solid white;
+    border-radius:200px;
+    color:skyblue;
+    font-size: 40px;
+}
+
+.icons:nth-child(1){
+    background: linear-gradient(rgb(65, 182, 255),rgb(36, 127, 255));
+    box-shadow: 
+    .2px .2px 2px .2px #34aefa,
+    .2px .2px 2px .2px #41bef3,
+    .2px .2px 2px .2px rgb(112, 195, 255),
+    .2px .2px 2px .2px rgb(166, 221, 255);
+}
+

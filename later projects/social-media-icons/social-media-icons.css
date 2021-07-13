@@ -1,0 +1,84 @@
+body{
+    font-family: Montserrat;
+    background-repeat: no-repeat;
+    height: 100vh;
+background: linear-gradient(rgb(23, 23, 23),rgb(22, 22, 22));
+}
+
+.container{
+    display: flex;
+
+}
+
+
+h2{
+letter-spacing: 5px;
+    padding-top: 150px;
+text-align: center;
+color:white;
+}
+
+.line{
+    margin-left: 580px;
+padding-left: 200px;
+    width:10rem;
+    height: .2rem;
+    background:white;
+}
+
+.container{
+    flex-direction: row;
+}
+
+.container{
+    gap:100px;
+justify-content: center;
+    padding-top: 100px;
+}
+
+ion-icon{
+padding: 18px;
+    font-size: 35px;
+    border-radius: 200px;
+}
+
+ion-icon:nth-child(1){
+    border:8px outset rgb(0, 142, 198);
+    color:rgb(123, 218, 255);
+    background:linear-gradient(to left,rgb(2, 148, 206) ,rgb(0, 57, 79) );
+    box-shadow: .2px .2px 10px .2px rgba(0, 128, 255, 0.734),
+    .2px .2px 10px .2px rgba(0, 118, 236, 0.986),
+    .2px .2px 10px .2px rgba(0, 128, 255, 0.83),
+    .2px .2px 10px .2px rgba(0, 128, 255, 0.707);
+}
+
+ion-icon:nth-child(2){
+    border:8px inset rgb(171, 165, 4);
+    color:white;
+    background:linear-gradient(to right,rgb(224, 217, 0) ,rgb(111, 108, 3) );
+    box-shadow: .2px .2px 10px .2px rgba(255, 247, 0, 0.789),
+    .2px .2px 10px .2px rgba(255, 247, 0, 0.789),
+    .2px .2px 10px .2px rgba(255, 247, 0, 0.789),
+    .2px .2px 10px .2px rgba(255, 247, 0, 0.789);
+}
+
+ion-icon:nth-child(3){
+    border:8px outset rgb(1, 72, 172);
+    color:rgb(13, 182, 255);
+    background:linear-gradient(to right,rgb(5, 102, 238) ,rgb(2, 51, 120) );
+    box-shadow: .2px .2px 10px .2px rgba(0, 136, 255, 0.768),
+    .2px .2px 10px .2px rgba(0, 136, 255, 0.768),
+    .2px .2px 10px .2px rgba(0, 136, 255, 0.768),
+    .2px .2px 10px .2px rgba(0, 136, 255, 0.768);
+}
+
+
+ion-icon:nth-child(4){
+    border:8px inset rgb(147, 1, 108);
+    color:rgb(252, 149, 241);
+    background:linear-gradient(rgb(225, 0, 255) ,rgba(160, 72, 255, 0.966),rgb(253, 154, 88));
+    box-shadow: .2px .2px 10px .2px rgba(247, 0, 255, 0.775),
+    .2px .2px 10px .2px rgba(247, 0, 255, 0.775),
+    .2px .2px 10px .2px rgba(247, 0, 255, 0.775),
+    .2px .2px 10px .2px rgba(247, 0, 255, 0.775);
+}

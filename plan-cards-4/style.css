@@ -1,0 +1,142 @@
+body{
+    font-family: Montserrat;
+    padding:0;
+    margin:0;
+}
+
+.main-container,.container,.box-container,.box,ul div{
+    display: flex;
+}
+
+.main-container,.container,.box-container,ul div{
+    flex-direction: row;
+}
+
+h2,.middle-box-bottom-tag,.box:nth-child(2),a{
+    color:white;
+}
+
+.middle-box-bottom-tag h3,.box:nth-child(2) a,.box:nth-child(2) h2,a:hover{
+    color:black;
+}
+
+.box:nth-child(2),a{
+    background: linear-gradient(to left,rgb(32, 32, 32),rgb(29, 29, 29));
+}
+
+ion-icon{
+    margin: -2px 0px 0px -20px;
+    font-size: 1.5rem;
+}
+
+ul div{
+    gap:5px;
+}
+
+.middle-box-bottom-tag{
+    background: linear-gradient(to left,rgb(32, 32, 32),rgb(29, 29, 29));
+    box-shadow: .2px .2px 8px .2px black;
+    width: 24.3rem;
+    height: 8rem;
+}
+
+.middle-box-bottom-tag h3{
+    background: linear-gradient(to left,rgb(243, 240, 240),white);
+}
+
+li{
+    list-style: none;
+}
+
+span{
+    font-family: 'Roboto';
+    font-size: 1rem;
+}
+
+.box{
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    width:23rem;
+    height: 34.5rem;
+    box-shadow: .2px .2px 32px .2px lightgray;
+    padding:0px 10px 0px 10px;
+}
+
+.box:nth-child(2){
+    background: linear-gradient(to left,rgb(32, 32, 32),rgb(29, 29, 29));
+    margin: -30px 0px 0px 0px;
+}
+
+.box:nth-child(2) a{
+    background: white;
+    border: none;
+    box-shadow: .2px .2px 3px .2px white;
+    margin: 5px 0px 0px 0px;
+    height: 36.5rem;
+}
+
+ul{
+    margin: 30px 0px 0px -15px;
+}
+
+.box-container{
+    padding-top: 110px;
+    flex-direction:row;
+    align-items: center;
+}
+
+.main-container,.container{
+    justify-content: center;
+}
+
+.box-container{
+    gap:20px;
+}
+
+a{
+    box-shadow: .2px .2px 2px .2px black;
+    text-decoration: none;
+    padding: 8px 22px 8px 22px;
+}
+
+a:hover{
+    background:white;
+    box-shadow: .2px .2px 2px .2px gray;
+    transition: .3s;
+    border-radius:200px;
+}
+
+img{
+    width:4rem;
+    height: auto;
+}
+
+h2,h3{
+    text-align: center;
+}
+
+h2{
+    width: 20rem;
+    height: 2rem;
+    background: black;
+    box-shadow: .2px .2px 2px .2px black;
+}
+
+.box:nth-child(2) h2{
+    background: white;
+    box-shadow: .2px .2px 4px .2px white;
+}
+
+h3{
+    padding:3px 2px 3px 2px;
+    letter-spacing: 3px;
+}
+
+.box p{
+    font-size: 16.4px;
+    font-family: 'Roboto';
+}
+

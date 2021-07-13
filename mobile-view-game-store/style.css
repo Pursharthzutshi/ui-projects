@@ -1,0 +1,130 @@
+body{
+    background: white;
+    font-family: Montserrat;
+}
+
+.container,.main-container,.mobile-view,.mobile-view-2,.mobile-view div,.icons-container,.mobile-view .box-container,.box-container div,.mobile-view .box-container .box{
+    display: flex;
+}
+
+
+.bottom-icon-div,.bottom-icon-div-2{
+    justify-content: center;
+}
+
+h1,h2,ion-icon{
+    color:white;
+}
+
+.bar,.top-bar,a{
+    box-shadow: .2px .2px 3px .2px rgb(172, 172, 172);
+}
+
+h2{
+    padding:0px 0px 0px 20px;
+    margin:-5px 0px 0px 0px;
+}
+
+.mobile-view .bg-image{
+    background-image:linear-gradient(rgba(26, 2, 61, 0.51),rgba(56, 3, 68, 0.183)),url('images/feature-1280x72014.jpg');
+    background-position: center;
+    background-size:cover;
+    height:23vh;
+    width:100%;
+    background-repeat: no-repeat;
+}
+
+.mobile-view .box-container .box{
+margin: 0px 0px 0px -8px;
+    height:10vh;
+    width:40%;
+    z-index: +1;
+    
+}
+
+.mobile-view div:nth-child(2){
+    height:23vh;
+    width:100%;
+    background:black;
+}
+
+.container,.mobile-view div,.icons-container{
+    flex-direction: row;
+}
+
+.mobile-view .box-container{
+    margin:20px 0px 0px 8px;
+
+}
+
+
+p{
+    font-size: 15px;
+    text-align: center;
+    color:white;
+}
+
+
+.mobile-view .bg-image div{
+    margin: 20px 0px 0px 0px;
+    gap:240px;
+}
+
+.mobile-view,.mobile-view-2,.mobile-view .box-container div,.mobile-view .box-container,.box-container div{   
+    flex-direction:column ;
+}
+
+.icon-image{
+    height: auto;
+}
+
+.mobile-view,.mobile-view-2{
+    width:23rem;
+    height:43.2rem;
+    box-shadow: .2px .2px 5px .2px gray;
+}
+
+.main-container{
+    gap:40px;
+    justify-content: center;
+}
+
+.container{
+    gap:30px;
+    padding-top: 25px;
+    justify-content: center;
+}
+
+.mobile-view{
+    border-radius: 10px;
+    background:linear-gradient(to left,rgb(35, 35, 35),rgb(37, 0, 72));
+}
+
+h1{
+    border-bottom: 2px solid white;
+    padding:0px 0px 20px 0px;
+    text-align: center;
+}
+
+
+
+.mobile-view-2{
+    background:linear-gradient(to left,rgb(243, 243, 243),rgb(255, 255, 255));
+}
+
+
+.icon-image{
+    padding:0px 2px 20px 8px;
+    width:2rem;
+}
+
+
+ion-icon{
+    border-radius: 8px;
+    margin: 8px;
+    background:linear-gradient(to left, rgb(37, 2, 56),black,rgb(92, 1, 133));
+    box-shadow: .2px .2px 4px .2px black;
+    padding:10px;
+    font-size:1.6rem;
+    margin-top: 30px;
+}

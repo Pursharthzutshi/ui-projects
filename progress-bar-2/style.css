@@ -1,0 +1,68 @@
+body{
+    font-family: 'Roboto';
+    background: white;
+}
+
+.box{
+    color: black;
+    padding:20px;
+    width:20rem;
+    height:10rem;
+    background: ;
+    border:1px solid transparent;
+   
+}
+
+
+.line,.inner-line,.inner-line-2,.inner-line-3{
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    text-align: center;
+    border-radius:10px;
+    
+}
+
+.heading{
+padding-left: 12px;
+}
+
+.line{
+    width:20rem;
+    height: .8rem;
+    background:linear-gradient( rgb(246, 255, 254), rgb(253, 255, 255));
+    box-shadow: 12px 2px 22px 2px black;
+}
+
+.inner-line,.inner-line-2,.inner-line-3{
+    color: white;
+    margin-top: -5px;
+    height: .8rem;
+}
+
+.inner-line{
+    width:6rem;
+    background:linear-gradient( rgb(160, 20, 20), rgb(216, 51, 22));
+}
+
+
+.inner-line-2{
+    width:11rem;
+    background:linear-gradient( rgb(241, 166, 3), rgb(208, 175, 43));
+}
+
+
+.inner-line-3{
+    width:17.5rem;
+    background:linear-gradient( rgb(65, 226, 65), rgb(62, 214, 31));
+}
+
+
+.percentage{
+    font-size: 14px;
+    margin-top: -1.5px;
+}
+
+progress{
+    width:80%;
+}

@@ -1,0 +1,223 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.container,.left-sidebar,.dashboard,.right-sidebar,.top-bar,.box-container,.box-container .boxes div,.last-box,.last-box .buttons-container,.icons-container{
+    display: flex;
+}
+
+.left-sidebar,.right-sidebar{
+    gap:80px;
+    align-items: center;
+}
+
+.left-sidebar,.dashboard,.right-sidebar,.last-box,.icons-container{
+    flex-direction: column;
+}
+
+h2,.left-sidebar h3,.left-sidebar,.buttons-container{
+    background: linear-gradient(to left,rgb(250, 250, 250),rgb(255, 255, 255),rgb(255, 255, 255));
+}
+
+.box-container{
+    margin: -5px 0px 0px 0px;
+    justify-content: space-around;
+}
+
+
+.right-sidebar{
+    gap:160px;
+    justify-content: center;
+}
+
+.container,.top-bar,.box-container .boxes div{
+    flex-direction: row;
+}
+
+.left-sidebar,.container{
+    justify-content: center;
+}
+
+.left-sidebar,.dashboard,.right-sidebar{
+    height: 44rem;
+    box-shadow: .2px .2px 2.2px .2px rgb(223, 223, 223);
+    border:1px solid rgb(241, 241, 241);
+    border-right:1px solid white;
+}
+
+.left-sidebar{
+    box-shadow: .2px .2px 3px .2px rgb(238, 238, 238); 
+    width:11%;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+ion-icon{
+    color:rgb(27, 27, 27);
+    font-size: 2.2rem;
+    box-shadow: .2px .2px 2px .2px rgb(186, 186, 186);
+    padding:5px 6px 5px 6px;
+    border-radius: 8px;
+}
+
+ion-icon:hover{
+    cursor: pointer;
+    background: linear-gradient(to left,rgb(39, 39, 39),black);
+    color:white;
+    box-shadow: .2px .2px 3px .2px black;
+    transition: .3s;
+}
+
+
+.dashboard{
+    border-left:3px solid transparent;
+    padding:0px 2px 0px 20px;
+    width:80%;
+    gap:3px;
+    background: linear-gradient(to right,#ffffff,rgb(253, 253, 255),transparent,rgb(255, 255, 255),transparent);
+}
+
+
+input{
+    outline:none;
+    border:none;
+    box-shadow: .2px .2px 2px .2px lightgray;
+    padding:8px 2px 6px 2px;
+    width: 50%;
+    margin: 0px 0px 0px 30px ;
+}
+
+input::placeholder{
+    padding:2px 2px 2px 10px;
+    font-family: 'Roboto';
+    letter-spacing: 1px;
+}
+
+h2{
+    width: 94%;
+    box-shadow: .2px .2px 2px .2px lightgray;
+    padding:5px 0px 5px 10px ;
+    margin-left: 30px;
+    box-shadow: .2px .2px 2px .2px lightgray;
+   }
+
+
+.search-icon{
+    padding:5px 10px 7px 12px;
+    margin: .3px 0px 0px -2px;
+    font-size: 1.2rem;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.left-sidebar h3{
+    background: linear-gradient(to left,rgb(50, 50, 50),rgb(84, 84, 84));
+    color:white;
+    box-shadow: .2px .2px 3px .2px black;
+    margin: -98px 0px 0px -2px;
+    padding:8px 12px 9px 14px;
+    border-right:1px solid transparent;
+    font-size: 22px;
+    border-top-left-radius: 8px;
+    letter-spacing: 2px;
+}
+
+.icons-container{
+    gap:65px;
+}
+
+.right-sidebar ion-icon{
+    border-radius: 200px;
+}
+
+.right-sidebar{
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;   
+    background: white;
+    border:1px solid white;
+    z-index: -1;
+    width:7%;
+    border-left: 4px solid rgb(104, 104, 241);
+}
+
+img{
+    margin: 0px 0px 0px -10px;
+    width:14.7rem;
+    height: auto;
+}
+
+.boxes{
+    gap:20px;
+    width: 14rem;
+    height: 16rem;
+    padding: 0px 0px 0px 10px;
+    background: white;
+    box-shadow: .2px .2px 2px .2px lightgray; 
+    opacity: .88;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'lato';
+    padding:2.5px 16px 3px 16px;
+    margin:-.1px 0px 0px -1px; 
+    color:rgb(74, 74, 74);
+    border-radius:2px;
+    font-size: 16px;
+    
+}
+
+a:hover{
+    color:black;
+    transition:.3s ;
+    
+}
+
+.box-container .boxes div{
+    justify-content: center;
+    box-shadow: .2px .2px 2px .2px rgb(206, 206, 206);
+    padding:6px 0px 6px 10px;
+    margin: 21px 0px 0px -10px;
+    gap:17px;
+    border-bottom:1px solid white;
+
+}
+
+.box-container:nth-child(2) .boxes:nth-child(3){
+    background: black;
+    width: 20rem;
+    margin: 0px 0px 0px 20px;
+}
+
+.last-box{
+    align-items: center;
+    color:white;
+    margin:0px -40px 0px 0px;
+    width: 22.2%;
+    height: 17rem;
+    box-shadow: .2px .2px 2px .2px hsl(258, 94%, 50%);
+    background: linear-gradient(to left,hsl(257, 61%, 12%),rgb(39, 39, 39),rgb(57, 57, 57));
+}
+
+p{
+    text-align: center;
+}
+
+.icon-image{
+    margin: 20px 0px 0px 0px;
+    width: 6.5rem;
+    height: auto;
+}
+
+.last-box .buttons-container a{
+    background: white;
+    padding:6px 12px 6px 12px;
+    border-radius: 200px;
+    color:black;
+    border-radius: 2px;
+}
+
+.buttons-container{
+    box-shadow: .2px .2px 8px .2px rgba(211, 211, 211, 0.912);
+    gap:20px;
+}

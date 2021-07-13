@@ -1,0 +1,95 @@
+body{
+    font-family:'Roboto';
+    background: rgb(197, 197, 255);
+}
+
+.icons-image-row,.input-button-row,.icons-image-column,.newsletter-box-column{
+    display: flex;
+}
+
+.icons-image-row,.input-button-row{
+    flex-direction: row;
+}
+.icons-image-column,.newsletter-box-column{
+    flex-direction: column;
+}
+.newsletter-box-column{
+    gap:80px;
+}
+
+.icons-image-row{
+    gap:410px;
+    margin-left: 380px;
+}
+
+.newsletter-box{
+    width:32rem;
+    height:18rem;
+    opacity: .8;
+    border:1px solid transparent;
+    border-radius: 8px;
+    background:linear-gradient(rgba(235, 228, 228, 0.2),rgba(202, 202, 241, 0.8));
+    box-shadow: .2px .1px 1.88px .2px black;
+    transform: translate(80%,-35%);
+    backdrop-filter: blur(2px);
+    z-index: +1;
+}
+
+.icons-image{
+
+    z-index: -1;
+    position: relative;
+
+    top:230px;
+    width:80px;
+    height:auto;
+}
+
+.icons-image-column{
+    gap:220px;
+}
+
+.box-image{
+    transform: translate(250%,40%);
+    width:5.3rem;
+    height:auto;
+    padding:2px;
+
+}
+
+.input-box{
+    border:1px solid transparent;
+    outline: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;    
+    width:70%;
+    padding:5px;
+}
+
+.input-box::placeholder{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(41, 38, 38);
+}
+
+
+.button{
+    background:rgb(25, 25, 25);
+    color:white;
+    border:1px solid rgb(25, 25, 25);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding:5px 18px 5px 18px;
+}
+
+.newsletter-box-heading{
+    font-family: Montserrat;
+    text-align:center;
+    position: relative;
+    top:-20px;
+    color:rgb(25, 25, 25);
+}
+
+.input-button-row{
+    margin-left: 18px;
+    justify-content:-100px ;   
+}

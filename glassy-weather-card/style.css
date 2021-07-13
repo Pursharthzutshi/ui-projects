@@ -1,0 +1,76 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Montserrat;
+    background: rgb(230, 229, 229);
+}
+
+.container,.cards,.line-div{
+    display: flex;
+}
+
+.bg-line-div{
+    padding-top: 230px;
+}
+
+.container{
+    flex-direction: row;
+}
+
+.cards{
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    justify-content: center;
+    gap:20px;
+}
+
+.cards{
+    margin-top: -120px;
+    color:black;
+    border-radius: 8px;
+    border:2px solid transparent;
+    width:15rem;
+    height: 18rem;
+    box-shadow: 1px 2px 31px 3px white;
+    background: linear-gradient(to left,rgb(255, 255, 255),rgb(255, 249, 251),rgb(255, 255, 255));
+    z-index: +1;
+    opacity: .8;
+    clip-path: polygon(0% 0%,0% 100%,100% 70%,100% 0%) ;
+}
+
+ion-icon{
+    font-size: 4rem;
+}
+
+h2,.bg-line{
+    transform: rotate(-2deg);
+}
+
+h2{    
+  box-shadow: 2px 2px 2px 2px white;
+    height: 2rem;
+    background:linear-gradient(to left,rgb(147, 145, 145),rgb(12, 12, 12),rgb(120, 120, 120));
+    color:white;
+    border-radius: 200px;
+    padding:2px 20px 2px 20px;
+    margin: -35px 40px 0px 0px;
+    z-index: +1;
+}
+
+h3,p{
+    letter-spacing: 2px;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.bg-line{
+    width:99.8%;
+    height: 4rem;
+    background: linear-gradient(to left,rgb(255, 255, 255),rgb(255, 249, 251),rgb(255, 255, 255));
+    box-shadow: .2px .2px 2px .2px whitesmoke; 
+}
