@@ -44,7 +44,7 @@ h3,span,a{
 input{
     outline: none;
     border:none;
-    box-shadow: .2px .2px 30px .2px rgb(230, 230, 230);
+    box-shadow: .2px .2px 10px .2px rgba(233, 233, 233, 0.517);
     width: 87%;
     padding: 6px 2px 6px 10px;
 }
@@ -76,18 +76,20 @@ input::placeholder{
     gap:2px;
     padding:18px 18px 2px 18px;
     height: 39.5rem;
-    box-shadow: .2px .2px 82px .2px rgb(235, 235, 235);
+    box-shadow: .2px .2px 12px .2px rgba(247, 247, 247, 0.748);
     border-radius: 12px;    
 }
 
 .icons-column ion-icon{
-    padding:6px 12px 8px 12px;
+    border-left: 5px solid transparent;
+    padding:6px 6px 8px 8px;
 }
 
-.icons-column ion-icon:hover{
-    border-radius: 8px;
-    padding:6px 12px 8px 12px;
-    background: rgb(255, 234, 242);
+.icons-column ion-icon:active{
+    border-left: 5px solid rgb(187, 30, 101);
+    padding:6px 6px 8px 8px;
+    transition: .2s;
+    color:rgb(211, 65, 131);
 }
 
 .line{
