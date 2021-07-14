@@ -2,7 +2,7 @@ body{
     font-family: 'Montserrat';
 }
 
-.container,.icons-link-column,.icons-link-row,.nav-bar,.top-bar,.profile-row{
+.container,.icons-link-column,.icons-column,.icons-link-row,.nav-bar,.top-bar,.profile-row{
     display: flex;
 }
 
@@ -10,20 +10,41 @@ body{
     flex-direction: row;
 }
 
+.nav-bar:nth-child(1),.nav-bar:nth-child(2){
+    padding:18px 28px 2px 18px;
+    width: 3rem;
+}
+
+h3,span,a{
+    color:rgb(165, 29, 79);
+}
+
+.nav-bar:nth-child(1) .top-bar ion-icon,.nav-bar:nth-child(2) .top-bar ion-icon{
+    margin: 0px 0px 0px 11px;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    background: rgb(165, 22, 65);
+}
+
+
+
 .top-bar ion-icon{
     color:white;
-    background: rgb(152, 16, 56);
     padding:4px 8px 5px 7px;
-    font-size: 1.2rem;
-    margin: 0px 0px 0px 1px;
+}
+
+.nav-bar:nth-child(3) .top-bar ion-icon{
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+    font-size: 1.2rem;
+    margin: 0px 0px 0px -11px;
+
 }
 
 input{
     outline: none;
     border:none;
-    box-shadow: .2px .2px 20px .2px rgb(236, 236, 236);
+    box-shadow: .2px .2px 30px .2px rgb(230, 230, 230);
     width: 87%;
     padding: 6px 2px 6px 10px;
 }
@@ -32,8 +53,13 @@ input::placeholder{
     font-family: 'Roboto';
 }
 
-.nav-bar,.icons-link-column{
+.nav-bar,.icons-column,.icons-link-column{
     flex-direction: column;
+}
+
+.icons-column{
+    margin: 0px 0px 0px 8px;
+    gap:45px;
 }
 
 .container{
@@ -42,38 +68,47 @@ input::placeholder{
 }
 
 .container{
-    padding-top: 20px;
+    padding-top: 35px;
     gap:50px;
 }
 
 .nav-bar{
-    gap:4px;
+    gap:2px;
     padding:18px 18px 2px 18px;
-    width:13.5rem;
-    height: 42.5rem;
-    box-shadow: .2px .2px 32px .2px rgba(235, 235, 235, 0.714);
+    height: 39.5rem;
+    box-shadow: .2px .2px 82px .2px rgb(235, 235, 235);
+    border-radius: 12px;    
+}
+
+.icons-column ion-icon{
+    padding:6px 12px 8px 12px;
+}
+
+.icons-column ion-icon:hover{
     border-radius: 8px;
-}
-
-.icons-link-row{
-    height: 2rem;
-    padding:4px 2px 8px 2px;
-    gap:20px;
-    border-left: 4px solid white;
-}
-
-h3,span,a{
-    color:  rgb(165, 29, 79);
+    padding:6px 12px 8px 12px;
+    background: rgb(255, 234, 242);
 }
 
 .line{
-    background:  rgb(223, 25, 114);
+    background:  rgb(220, 29, 115);
+}
+
+.icons-link-row{
+    margin-left: -10px;
+    height: 2rem;
+    padding:4px 8px 8px 10px;
+    gap:20px;
 }
 
 .icons-link-row:hover{
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 4px;
     background: rgb(255, 234, 242);
+}
+
+.nav-bar:nth-child(3){
+    width:13rem;
 }
 
 span{
@@ -84,24 +119,26 @@ span{
     gap:20px;
 }
 
-.nav-bar img{
-    height: 2.5rem;
-    width: 2.5rem;
+img{
+    height: 2.3rem;
+    width: 2.3rem;
+}
+
+.nav-bar:nth-child(1) img,.nav-bar:nth-child(2) img{
+    margin-left: 10px;
 }
 
 .nav-bar h3{
+    font-size: 1.1rem;
     margin:6px 0px 0px 0px;
+}
+
+.nav-bar:nth-child(3) .top-bar ion-icon{
+    background: rgb(152, 16, 56);
 }
 
 .icons-link-column{
     gap:7px;
-}
-
-.top-line{
-    margin-left: -18px;
-    width: 117%;
-    height: .1rem;
-    background:gray;
 }
 
 .line{
@@ -109,7 +146,6 @@ span{
     height: .1rem;
     border-radius: 200px;
 }
-
 
 a{
     font-size: 1rem;
@@ -119,5 +155,8 @@ a{
 
 ion-icon{
     font-size: 1.3rem;
+}
+
+.icons-link-row ion-icons{
     margin: -2px 0px 0px 20px;
 }
