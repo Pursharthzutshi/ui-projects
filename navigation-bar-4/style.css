@@ -1,3 +1,118 @@
 body{
     font-family: 'Montserrat';
 }
+
+.container,.icons-link-column,.icons-link-row,.nav-bar,.top-bar,.profile-row{
+    display: flex;
+}
+
+.container,.icons-link-row,.top-bar,.profile-row{
+    flex-direction: row;
+}
+
+.top-bar ion-icon{
+    color:white;
+    background: black;
+    box-shadow: .2px .2px 10px .2px lightgray;
+    padding:4px 8px 4.5px 7px;
+    font-size: 1.2rem;
+    margin: 0px 0px 0px 1px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+input{
+    outline: none;
+    border:none;
+    box-shadow: .2px .2px 10px .2px lightgray;
+    width: 87%;
+    padding: 6px 2px 6px 10px;
+}
+
+input::placeholder{
+    font-family: 'Roboto';
+}
+
+.nav-bar,.icons-link-column{
+    flex-direction: column;
+}
+
+.container{
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding-top: 20px;
+    gap:50px;
+}
+
+.nav-bar{
+    gap:4px;
+    padding:18px 18px 2px 18px;
+    width:13.5rem;
+    height: 42.5rem;
+    box-shadow: .2px .2px 32px .2px rgba(235, 235, 235, 0.714);
+    border-radius: 8px;
+}
+
+.icons-link-row{
+    height: 2rem;
+    padding:4px 2px 8px 2px;
+    gap:20px;
+    border-left: 4px solid white;
+    color:black;
+}
+
+a{
+    color: black;
+}
+
+.icons-link-row:hover{
+
+    border-radius: 8px;
+    background: rgb(220, 220, 220);
+}
+
+.profile-row{
+    gap:20px;
+}
+
+.nav-bar img{
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.nav-bar h3{
+    margin:6px 0px 0px 0px;
+}
+
+.icons-link-column{
+    gap:7px;
+}
+
+.top-line{
+    margin-left: -18px;
+    width: 117%;
+    height: .1rem;
+    background:gray;
+}
+
+.line{
+    width: 100%;
+    height: .2rem;
+    background: black;
+}
+
+
+a{
+    font-size: 1rem;
+    margin: 8px 0px 0px 0px;
+    text-decoration: none;
+}
+
+ion-icon{
+    font-size: 1.3rem;
+    margin: -2px 0px 0px 20px;
+}
