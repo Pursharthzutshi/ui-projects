@@ -36,8 +36,11 @@ h3{
     gap:30px;
 }
 
-.container,.left-sidebar{
+.container,.left-sidebar,.bar-container .bar,.bar h4{
     color:white;
+}
+
+.container,.left-sidebar{
     justify-content: center;
     align-items: center;
 }
@@ -207,7 +210,6 @@ bg-image-2 {
     width: 15.8rem;
     height: 7.6rem;
     background: rgb(5, 27, 106);
-    color:white;
     border-radius: 10px;
     box-shadow: .2px .2px 16px .2px rgb(0, 2, 47);
 }
@@ -258,7 +260,6 @@ bg-image-2 {
 
 .bar h4{
     margin: 10px 0px 0px 0px;
-    color:white;
 }
 
 a{
