@@ -5,11 +5,11 @@ body{
     background: rgb(241, 241, 241);    
 }
 
-.container,.left-sidebar,.left-sidebar div,.left-sidebar-headings,.main-page,.image-column,.name-column,.about-us-box,.box-row,.top-bar,.status-box,.status-box-top-row,.status-box-icons,.status-box-icons-buttons-row,.Friends-list-row,.about-us-row{
+.container,.left-sidebar,.left-sidebar div,.left-sidebar-headings,.main-page,.image-column,.name-column,.about-us-box,.box-row,.top-bar,.status-box,.status-box-top-row,.status-box-icons,.status-box-icons-buttons-row,.Friends-list-row,.about-us-row,.status-post-box-column,.post-box .top-row,.name-status-column,.post-box-icons-row,.input-field-row{
     display: flex;
 }
 
-.container,.left-sidebar div,.left-sidebar-headings,.box-row,.top-bar,.status-box-top-row,.status-box-icons,.status-box-icons-buttons-row,.about-us-row{
+.container,.left-sidebar div,.left-sidebar-headings,.box-row,.top-bar,.status-box-top-row,.status-box-icons,.status-box-icons-buttons-row,.about-us-row,.post-box .top-row,.post-box-icons-row,.input-field-row{
     flex-direction: row;
 }
 
@@ -45,7 +45,7 @@ h2{
     justify-content: space-between;
 }
 
-.left-sidebar,.main-page,.image-column,.name-column,.status-box,.about-us-box{
+.left-sidebar,.main-page,.image-column,.name-column,.status-box,.about-us-box,.status-post-box-column,.name-status-column{
     flex-direction: column;
 }
 
@@ -257,6 +257,102 @@ ion-icon{
     height: 2.5vh;
 }
 
+.post-box{
+    height: 43rem;
+    width: 28rem;
+    background: white;
+    box-shadow: .2px .2px 5px .2px gray;
+}
+
+.post-box .top-row .profile-img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 200px;
+    margin: 10px 0px 0px 10px;
+    box-shadow: none;
+}
+
+.post-box .name-status-column{
+    margin-left: 20px;
+}
+
+.post-box .name-status-column select{
+    border-bottom:2px solid gray;
+    box-shadow: none;
+    margin:-12px 0px 0px -3px;
+    font-family: 'Montserrat';
+    font-size: .9rem;
+    color:gray;
+}
+
+.post-image{
+    margin: 5px 0px 0px 0px;
+    width: 28rem;
+    height: auto;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.line{
+    margin: 7px 0px 0px 20px;
+    background: rgb(175, 18, 75);
+    width: 90%;
+    height: .01rem;
+}
+
+.post-box-icons-row{
+    margin-top: 8px;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.comment-box{
+
+    border-radius: 8px;
+    font-size: .85rem;
+    padding:2px 2px 2px 12px;
+    box-shadow: .2px .2px 3px .2px lightgray;
+    margin: 0px 0px 0px 20px;
+    width: 24.2rem;
+    height: 7.5rem;
+}
+
+.comment-box .profile-image{
+    width: 2rem;
+    height: 2rem;
+}
+
+.post-box a{
+    color:rgb(78, 8, 34);
+    font-family: 'Roboto';
+    font-size: .8rem;
+    margin: 0px 0px 0px 20px;
+}
+
+
+.post-box input{
+    border:none;
+    width: 100%;
+    margin: 12px 0px 0px 0px;
+}
+
+.post-box input::placeholder{
+    outline: none;
+    font-family: 'Roboto';
+    padding-left: 20px;
+}
+
+.post-box-icons-row ion-icon{
+    font-size: 1.3rem;
+    color:rgb(175, 18, 75);
+}
+
+.input-field-row ion-icon{
+    color:gray;
+    margin:8px 0px 0px -40px;
+    font-size: 1.3rem;
+}
+
 select{
     border:1px solid black;
     box-shadow: .2px .2px 2px .2px rgb(184, 184, 184);
@@ -264,10 +360,6 @@ select{
     font-size: 1rem;
     font-family: 'Roboto';
     border:2px solid white;
-}
-
-.name-column{
-    margin-left: -50px;
 }
 
 p{
@@ -284,4 +376,8 @@ span{
 .left-sidebar-links-box a{    
     font-size: .9rem;
     text-align: start;
+}
+
+.status-box .name-status-column {
+    margin-left: -20px;
 }
