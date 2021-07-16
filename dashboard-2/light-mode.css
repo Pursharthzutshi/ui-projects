@@ -1,0 +1,268 @@
+body{
+    margin:0;
+    padding: 0;
+    background: white;
+    font-family: Montserrat;
+    background-image:linear-gradient(rgba(44, 13, 0, 0.938),rgba(41, 17, 1, 0.884)),url('images/pexels-vishnu-r-nair-1105666.jpg');
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+}
+
+ul,.container,.box-container,.box-info-column,.left-sidebar-top-row,.icon-link-row,.dashboard-top-row,.top-dashboard-images-row,.dashboard-footer,.footer-icons-row{
+    display: flex;
+}
+.container,.box-container,.left-sidebar-top-row,.icon-link-row,.dashboard-top-row,.top-dashboard-images-row,.footer-icons-row,.dashboard-footer{
+    flex-direction: row;
+}
+
+.box-info-column,ul{
+    flex-direction: column;
+}
+
+.dashboard-top-row{
+    justify-content: space-between;
+}
+
+.left-sidebar,.box,.top-dashboard-images-row,.inner-bar{
+    box-shadow: .2px .2px 6px .2px black;
+}
+
+.profile-icon-image,.top-icon-image,.icon-image{
+    height: auto;
+}
+
+.profile-icon-image{
+    margin-top: 12px;   
+    width:2.5rem;
+    padding: 8px;
+    border-radius: 200px;
+}
+
+.top-icon-image{
+    width:2rem;
+}
+
+.icon-image{
+    width:1.6rem;
+}
+
+nav{
+    margin-left: -30px;
+}
+
+ul{
+    margin-top: -9px;
+    gap:5.2px;
+}
+
+.top-dashboard-images-row{
+    padding:8px;
+    gap:47px;
+}
+
+.top-dashboard-images{
+    width:16.5%;
+    height:auto;
+    box-shadow: .2px .2px 2px .2px gray;
+}
+
+h2{
+    padding:2px 8px 2px 8px;
+    color:white;
+    font-size: 22px;
+    letter-spacing: 5px;
+    margin-left: -10px;
+}
+
+h3{
+    border-radius: 2px;
+    box-shadow: .2px .2px px .2px rgb(118, 2, 160);
+    padding:3px 12px 6px 12px;
+    color:white;
+    letter-spacing: 2.5px;
+}
+
+p{
+    font-size: 15px;
+}
+
+.line{
+    margin-top: -5px;
+    width: 100%;
+    height: .1rem;
+    background:white;    
+    border-radius: 200px;
+}
+
+.left-sidebar-top-row{
+    gap:30px;
+}
+
+.icon-link-row{
+    cursor: pointer;
+    padding: 7px 2px 2px 8px;
+    border:1px solid transparent;
+    gap:15px;
+    border-radius: 3px;
+    box-shadow: .2px .2px 2px .2px black;
+    border-top:2px solid rgb(255, 147, 45);
+    border-bottom:2px solid rgb(247, 136, 72);
+
+}
+
+
+.container{
+    padding-top: 20px;
+    justify-content: center;
+}
+
+.vertical-line{
+    height:40.5rem;
+    width: .1rem;
+    background:transparent;
+
+}
+
+.left-sidebar,.dashboard,.outer-bar{
+    background: linear-gradient(to left,rgb(250, 246, 246),white);
+}
+
+.left-sidebar,.dashboard{
+    height: 43.3rem;
+    border:1px solid rgb(231, 124, 8);
+    background: transparent;
+    padding:0px 15px 0px 28px;
+    border-bottom-left-radius: 8px;
+}
+
+li{
+    padding:2px 0px 0px 0px;
+    list-style: none;
+}
+
+ion-icon{
+    font-size: 20px;
+}
+
+a{
+    font-size: 15px;
+    color:white;
+    text-decoration: none;
+}
+
+.left-sidebar{
+
+    width:11rem;
+    padding-bottom:12px;
+}
+
+
+.dashboard{
+    width:78.5%;
+}
+
+img{
+    width:8.5rem;
+    height: auto;
+}
+
+.box-container{
+    gap:46px;
+}
+
+span{
+    margin-top: -10px;
+    color:gray;
+    font-size: 14px;
+}
+
+.box{
+    color:white;
+    padding:6px 8px 16px 10px;
+}
+
+.arrow-icon{
+    z-index: +1;
+    border-radius: 200px;
+    padding: 2px;
+    margin-top: 70px;
+    margin-left: -80px;
+    box-shadow: .2px .2px 12px .2px black;
+    color:rgb(69, 29, 3);
+    background: linear-gradient(to left,rgb(240, 186, 150),rgb(241, 167, 118));
+    font-size: 3rem;
+}
+
+.dashboard,.dashboard-footer{
+    border-bottom:1px solid transparent;
+    border-left:1px solid rgb(76, 50, 3);
+    border-right:1px solid rgb(76, 50, 3);
+    border-top:1px solid rgb(76, 50, 3);
+    box-shadow: .2px .2px 3px .2px rgb(157, 102, 0);
+}
+
+.dashboard-footer{
+    margin:-23px 2px 2px -27px;
+    width:103.4%;
+    height: 4rem;
+    color:white;
+    border-bottom-right-radius: 8px;
+    z-index: +1;
+    border: 1px solid transparent;
+    backdrop-filter: blur(2px);
+}
+
+
+
+.footer-icons-row{
+    gap:20px;
+    padding: 15px 0px 0px 20px;
+}
+
+.footer-icons{
+    padding:5px;
+    border-radius: 200px;
+    font-size: 20px;
+    color:white;
+}
+
+.inner-bar,.outer-bar{
+    margin: 25px;
+    height: .5rem;
+}
+
+.outer-bar,.footer-icons{
+    background: linear-gradient(to left,rgb(233, 109, 27),rgb(110, 57, 7));
+}
+
+.footer-icons{
+    box-shadow: .2px .2px 2px .2px black;
+}
+
+.outer-bar{
+    border-radius: 200px;
+    width:50%;
+}
+
+.inner-bar{
+    width:50%;
+    margin: 0px 0px 0px -10px;
+    background: linear-gradient(to left,rgb(247, 191, 119),rgb(189, 158, 129));
+}
+
+.footer-image{
+    margin: -2px 2px -1px -3px;
+    height:auto ;
+    width: 7rem;
+}
+
+.play-icon{
+    margin-top: -2px;
+    font-size: 28px;
+    color:black;
+}
+
+.playing-song-name{
+    margin: 10px 0px 0px 10px;
+}
