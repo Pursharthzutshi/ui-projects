@@ -1,0 +1,92 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background: rgb(51, 94, 79);
+}
+
+.neon-button-row{
+    display: flex;
+}
+
+.neon-button-row{
+    flex-direction: row;
+}
+
+.neon-button{
+    color:white;
+    font-size: 18px;
+    background: black;
+    padding:10px;
+    font-family: sans-serif;
+    text-decoration: none;
+    background: linear-gradient(#1bddf7,#09b0c6);
+    box-shadow: 2px 2px 2px 2px #0dd1eb
+        ,  2px 2px 82px 2px #0dd1eb, 2px 2px 92px 2px #0dd1eb
+        , 2px 2px 52px 2px #0dd1eb;
+    border-radius:200px;
+    transform: ;
+}
+
+.neon-button:nth-child(2){
+    background: linear-gradient(rgb(238, 119, 49),rgb(255, 121, 12));
+    box-shadow: 2px 2px 2px 2px #f58d1e
+    ,  2px 2px 82px 2px #f58d1e, 2px 2px 92px 2px #f58d1e
+    , 2px 2px 52px 2px #f58d1e;
+}
+
+.neon-button:nth-child(3){
+    background: linear-gradient(rgb(210, 49, 238),rgb(174, 11, 211));
+    box-shadow: 2px 2px 2px 2px #fc37f8
+    ,  2px 2px 82px 2px #fc37f8, 2px 2px 92px 2px #fc37f8
+    , 2px 2px 52px 2px #fc37f8;
+}
+
+.neon-button:nth-child(4){
+    background: linear-gradient(rgb(49, 96, 238),rgb(32, 168, 236));
+    box-shadow: 2px 2px 2px 2px #355ff7
+    ,  2px 2px 82px 2px #355ff7, 2px 2px 92px 2px #355ff7
+    , 2px 2px 52px 2px #355ff7;
+}
+
+.neon-button:nth-child(5){
+    background: linear-gradient(rgb(156, 164, 5),rgb(2, 221, 82));
+    box-shadow: 2px 2px 2px 2px #08dd6f
+    ,  2px 2px 82px 2px #08dd6f, 2px 2px 92px 2px #08dd6f
+    , 2px 2px 52px 2px #08dd6f;
+}
+
+.neon-button:nth-child(6){
+    background: linear-gradient(rgb(226, 238, 8),rgb(171, 208, 7));
+    box-shadow: 2px 2px 2px 2px #c3f511
+    ,  2px 2px 82px 2px #c3f511, 2px 2px 92px 2px #c3f511
+    , 2px 2px 52px 2px #c3f511;
+}
+
+.neon-button:hover{
+    opacity: 100%;
+    transition:.5s;
+    
+}
+
+.neon-button-row{
+    justify-content: space-around;
+}
+
+.heading{
+    background:#1DE9B6 ;
+    font-family: 'Roboto';
+    color:rgb(44, 43, 43);
+    text-align: center;
+    letter-spacing:8px;
+ 
+}
+
+.front-page-section{
+    box-shadow: 2px 2px 2px 12px #1DE9B6;
+    width:90%;
+    margin-top: 210px;
+    margin-left: 90px;
+    padding-top:12px;
+    background:#007659;
+    height:40vh;
+}
