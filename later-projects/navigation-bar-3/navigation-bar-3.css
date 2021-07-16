@@ -1,0 +1,83 @@
+body{
+    background:linear-gradient(to right,rgba(2, 2, 125, 0.932),rgb(98, 1, 98),rgba(125, 3, 3, 0.972),rgb(130, 86, 4));
+    font-family: Montserrat;
+}
+
+h2{
+    text-align: center;
+    color:white;
+    letter-spacing: 2px;
+    padding-top: 80px;
+}
+
+.container,.icons-links-bar,.nav-bar{
+    display: flex;
+}
+
+.container,.icons-links-bar{
+    flex-direction: row;
+}
+
+.nav-bar{
+    gap:35px;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px 2px black;
+    padding:30px 48px 30px 48px;
+}
+
+
+.nav-bar:nth-child(1){
+    background:linear-gradient(to right, rgb(3, 120, 138),rgb(37, 222, 250));
+    box-shadow: .2px .2px 18px .2px rgba(0, 128, 255, 0.734),
+        .2px .2px 18px .2px rgba(0, 128, 255, 0.782),
+        .2px .2px 18px .2px rgba(0, 128, 255, 0.83),
+        .2px .2px 18px .2px rgba(0, 128, 255, 0.707);
+}
+
+.nav-bar:nth-child(2){
+    background:linear-gradient(to right,rgb(160, 6, 231), rgb(213, 4, 192));
+    box-shadow: .2px .2px 18px .2px rgba(255, 0, 251, 0.782),
+        .2px .2px 18px .2px rgba(255, 0, 251, 0.782),
+        .2px .2px 18px .2px rgba(255, 0, 251, 0.782),
+        .2px .2px 18px .2px rgba(255, 0, 251, 0.782);
+}
+
+.nav-bar:nth-child(3){
+    background:linear-gradient(to left,rgb(206, 1, 1), rgb(236, 6, 110));
+    box-shadow: .2px .2px 18px .2px rgba(255, 3, 3, 0.7),
+        .2px .2px 18px .2px rgba(255, 0, 0, 0.7),
+        .2px .2px 18px .2px rgba(255, 3, 3, 0.7),
+        .2px .2px 18px .2px rgba(255, 3, 3, 0.7);
+}
+
+
+.nav-bar:nth-child(4){
+    background:linear-gradient(to left,rgba(221, 181, 5, 0.809), rgb(236, 114, 0));
+    box-shadow: .2px .2px 18px .2px rgba(255, 196, 0, 0.7),
+        .2px .2px 18px .2px rgba(255, 196, 0, 0.7),
+        .2px .2px 18px .2px rgba(255, 196, 0, 0.7),
+        .2px .2px 18px .2px rgba(255, 196, 0, 0.7);
+}
+
+.container{
+    padding-top: 90px;
+    justify-content: center;
+    gap:50px;   
+}
+
+.icons-links-bar{
+    color:white;
+    gap:25px;
+}
+
+a{
+    letter-spacing: 1.5px;
+    margin-top: 4px;
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+ion-icon{
+    font-size:22px;
+}
