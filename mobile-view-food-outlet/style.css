@@ -1,0 +1,102 @@
+body{
+    background: white;
+    font-family: 'Montserrat';
+}
+
+.container,.mobile-view,.mobile-view-2,.mobile-view .top-bar,.box-container,.box,.footer-section {
+    display: flex;
+}
+
+.container,.mobile-view-2,.mobile-view .top-bar,.box-container,.footer-section{
+    flex-direction: row;
+}
+
+.mobile-view,.box{
+    flex-direction: column;
+}
+
+.main-container{
+    gap:40px;
+    justify-content: center;
+}
+
+.container{
+    gap:30px;
+    padding: 25px 0px 0px 0px;
+    justify-content: center;
+}
+
+.mobile-view,.mobile-view-2{
+    height:42.6rem;
+    box-shadow: .2px .2px 5px .2px rgb(221, 218, 218);
+    margin: -12px 0px 0px 0px;
+    border-radius: 10px;
+}
+
+.mobile-view{
+    padding:12px 18px 2px 17px ;
+    background: white;
+    gap:8px;
+    width:19rem;
+}
+
+.mobile-view-2{
+    background: white;
+    width:22rem;
+    padding:2px 12px 2px 12px;
+    align-items: center;
+}
+
+.mobile-view .top-bar{
+    gap:220px;
+    justify-content: space-between;
+}
+
+.mobile-view ion-icon{
+    font-size: 1.3rem;
+}
+
+.box-container{
+    gap:20px;
+}
+
+.box{
+    align-items: center;
+    padding:2px 2px 2px 2px;
+    width:9rem;
+    height: 9rem;
+    background: white;
+    box-shadow: .2px .2px 10px .2px rgb(236, 236, 236);
+}
+
+.box img{
+    margin: 5px 2px 2px 12px;
+    width: 6rem;
+    height: auto;
+}
+
+.box p{
+    margin: 3px 0px 0px 0px;
+}
+
+.footer-section{
+    margin: -5px 0px 0px -16px;
+    width: 111%;
+    height: 8rem;
+    box-shadow: .2px .2px 22px .2px lightgray;
+}
+
+.footer-section{
+    align-items: center;
+    justify-content: center;
+    gap:37px;
+}
+
+.footer-section ion-icon:nth-child(3){
+    font-size: 1.4rem;
+    background: black;
+    color:white;
+    padding:5px;
+    border-radius: 200px;
+    box-shadow: .2px .2px 2px .2px black;
+}
