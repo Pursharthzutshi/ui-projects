@@ -3,15 +3,15 @@ body{
     font-family: 'Montserrat';
 }
 
-.container,.mobile-view,.mobile-view-2,.mobile-view .top-bar,.box-container,.box,.footer-section {
+.container,.mobile-view,.mobile-view-2,.top-bar,.box-container,.box,.footer-section,.mobile-view-2 .icons-row,.small-boxes-row,.checkout-div{
     display: flex;
 }
 
-.container,.mobile-view-2,.mobile-view .top-bar,.box-container,.footer-section{
+.container,.top-bar,.box-container,.footer-section,.mobile-view-2 .icons-row,.small-boxes-row{
     flex-direction: row;
 }
 
-.mobile-view,.box{
+.mobile-view,.mobile-view-2,.box{
     flex-direction: column;
 }
 
@@ -42,9 +42,8 @@ body{
 
 .mobile-view-2{
     background: white;
-    width:22rem;
-    padding:2px 12px 2px 12px;
-    align-items: center;
+    width:19rem;
+    padding:10px 12px 2px 12px;
 }
 
 .mobile-view .top-bar{
@@ -52,7 +51,12 @@ body{
     justify-content: space-between;
 }
 
-.mobile-view ion-icon{
+.mobile-view-2 .top-bar{
+    gap:260px;
+    justify-content: space-between;
+}
+
+.top-bar ion-icon{
     font-size: 1.3rem;
 }
 
@@ -99,4 +103,108 @@ body{
     padding:5px;
     border-radius: 200px;
     box-shadow: .2px .2px 2px .2px black;
+}
+
+.mobile-view-2 .icons-row{
+    justify-content: center;
+    gap:20px;
+}
+
+.bg-photo{
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    margin:-10px 0px 0px -12px;
+    color: white;
+    background-image:url('images/kasper-urdal-o49elKbjPZI-unsplash.jpg');
+    background-position: center;
+    background-size:cover;
+    width: 108%;
+    height:50vh;
+    clip-path: polygon(0% 0%,100% 0%,100% 78%,0% 100%);
+    padding-right: 0px;
+}
+
+.mobile-view-2 .icons-row ion-icon{
+    font-size: 1.5rem;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    background: black;
+    color:white;
+    padding:5px 6px 5px 6px;
+    border-radius: ;
+
+}
+
+span{
+    margin-top:7px;
+    font-family: 'Roboto';
+}
+
+.mobile-view-2 .footer-section{
+    height: 4rem;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-top: 60px;
+    width: 110%;
+}
+
+h3{
+    border-radius: 200px;
+    padding:5px 5px 6px 15px;
+    box-shadow: .2px .2px 6px .2px rgb(236, 236, 236);
+}
+
+.small-boxes-row{
+    gap:20px;
+}
+
+p{
+    font-family: 'Roboto';
+}
+
+a{
+    background: rgb(27, 27, 27);
+    color:white;
+    font-family: 'Roboto';
+    text-decoration: none; 
+    padding:5px 10px 5px 12px;
+    box-shadow: .2px .2px 12px .2px lightgray;
+}
+
+
+
+.checkout-div{
+    padding:22px 2px 22px 2px;
+    gap:20px;
+    color: white;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin:40px 0px 0px -12px ;
+    width: 107%;
+    height: 2rem;
+    background: black;
+}
+
+.checkout-div a{
+    padding:7px 30px 7px 30px;
+    font-size: .9rem;
+    background: white;
+    color:black;
+    border-radius: 200px;
+    margin-left: 45px;
+}
+
+.checkout-div p{
+    margin: 5px 0px 0px 17px;
+}
+
+.small-box{
+    background: black;
+}
+
+.view-review-button{
+    margin-top: 0px;
+    box-shadow: none;
+    background: none;
+    color:rgb(79, 59, 7);
+    text-decoration: underline;
 }
