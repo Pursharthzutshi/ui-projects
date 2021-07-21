@@ -1,14 +1,37 @@
 body{
-    background: white;
     font-family: 'Montserrat';
 }
 
-.container,.mobile-view,.mobile-view-2,.top-bar,.box-container,.box,.footer-section,.mobile-view-2 .icons-row,.small-boxes-row,.checkout-div,.rating-icons-row{
+.container,.mobile-view,.mobile-view-2,.top-bar,.box-container,.box,.footer-section,.mobile-view-2 .icons-row,.additional-items-row,.checkout-div,.rating-icons-row{
     display: flex;
 }
 
-.container,.top-bar,.box-container,.footer-section,.mobile-view-2 .icons-row,.small-boxes-row,.rating-icons-row{
+.container,.top-bar,.box-container,.footer-section,.mobile-view-2 .icons-row,.additional-items-row,.rating-icons-row{
     flex-direction: row;
+}
+
+.footer-section ion-icon:nth-child(3),.mobile-view-2 .top-bar,.mobile-view-2 .icons-row ion-icon,.additional-items-row p,.bg-photo,.checkout-div,.add-more-button{
+    color:white;
+}
+
+.footer-section ion-icon:nth-child(3),.mobile-view-2 .icons-row ion-icon,.checkout-div,.small-boxes{
+    background: black;
+}
+
+.footer-section,.checkout-div a,.mobile-view,.mobile-view-2,.box{
+    background: white;
+}
+
+.main-container,.container,.mobile-view-2 .icons-row,.footer-section{
+    justify-content: center;
+}
+
+span,a{
+    font-family: 'Roboto'; 
+}
+
+.footer-section,.box{
+    align-items: center;
 }
 
 .mobile-view,.mobile-view-2,.box{
@@ -17,13 +40,11 @@ body{
 
 .main-container{
     gap:40px;
-    justify-content: center;
 }
 
 .container{
     gap:30px;
     padding: 25px 0px 0px 0px;
-    justify-content: center;
 }
 
 .mobile-view,.mobile-view-2{
@@ -35,13 +56,11 @@ body{
 
 .mobile-view{
     padding:12px 18px 0px 17px ;
-    background: white;
     gap:8px;
     width:19rem;
 }
 
 .mobile-view-2{
-    background: white;
     width:20rem;
     padding:10px 12px 0px 12px;
 }
@@ -65,11 +84,9 @@ body{
 }
 
 .box{
-    align-items: center;
     padding:2px 2px 2px 2px;
     width:9rem;
     height: 9rem;
-    background: white;
     box-shadow: .2px .2px 10px .2px rgb(236, 236, 236);
 }
 
@@ -83,7 +100,6 @@ body{
     margin: 3px 0px 0px 0px;
 }
 
-
 .footer-section{
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -92,9 +108,6 @@ body{
     height: 9rem;
     box-shadow: .2px .2px 22px .2px lightgray;
     gap:40px;
-    align-items: center;
-    justify-content: center;
-    background: white;
 }
 
 .footer-section ion-icon{
@@ -103,23 +116,23 @@ body{
 
 .footer-section ion-icon:nth-child(3){
     font-size: 1.3rem;
-    background: black;
-    color:white;
     padding:5px;
     border-radius: 200px;
     box-shadow: .2px .2px 2px .2px black;
 }
 
 .mobile-view-2 .icons-row{
-    justify-content: center;
     gap:20px;
+}
+
+.mobile-view-2 .top-bar{
+    z-index: +1;
 }
 
 .bg-photo{
     border-top-right-radius: 8px;
     border-top-left-radius: 8px;
-    margin:-10px 0px 0px -12px;
-    color: white;
+    margin:-31px 0px 0px -12px;
     background-image:url('images/kasper-urdal-o49elKbjPZI-unsplash.jpg');
     background-position: center;
     background-size:cover;
@@ -132,15 +145,11 @@ body{
 .mobile-view-2 .icons-row ion-icon{
     font-size: 1.5rem;
     box-shadow: .2px .2px 12px .2px lightgray;
-    background: black;
-    color:white;
     padding:5px 6px 5px 6px;
-
 }
 
 span{
     margin-top:7px;
-    font-family: 'Roboto';
 }
 
 h3{
@@ -149,20 +158,18 @@ h3{
     box-shadow: .2px .2px 6px .2px rgb(236, 236, 236);
 }
 
-.small-boxes-row{
+.additional-items-row{
     gap:20px;
 }
 
 a{
-    font-family: 'Roboto'; 
     padding:5px 10px 5px 12px;    
     text-decoration: none;
 }
 
-.small-boxes-row p{
+.additional-items-row p{
     font-size: .76rem;
     background: rgb(27, 27, 27);
-    color:white;
     padding:7px 10px 7px 12px;
     box-shadow: .2px .2px 12px .2px lightgray;
 }
@@ -170,19 +177,17 @@ a{
 .checkout-div{
     padding:22px 2px 22px 2px;
     gap:20px;
-    color: white;
     border-bottom-right-radius: 8px;
     border-bottom-left-radius: 8px;
     margin:20px 0px 0px -12px ;
     width: 107%;
     height: 2rem;
-    background: black;
 }
 
 .checkout-div a{
     padding:7px 30px 7px 30px;
+    box-shadow: .2px .2px 8px .2px white;
     font-size: .9rem;
-    background: white;
     color:black;
     border-radius: 200px;
     margin-left: 45px;
@@ -192,17 +197,10 @@ a{
     margin: 5px 0px 0px 17px;
 }
 
-
-.small-box{
-    background: black;
-}
-
-
 .add-more-button{
-font-size: .9rem;
+    font-size: .9rem;
     padding:6px 15px 7px 18px;
     background: rgb(20, 20, 20);
     width: 20%;
-    color:white;
     border-radius: 5px;
 }
