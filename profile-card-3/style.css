@@ -1,0 +1,116 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.main-container,.container,.cards-container,.cards,.icons-row,.buttons-container{
+    display: flex;
+}
+
+.container,.cards-container,.icons-row,.buttons-container{
+    flex-direction: row;
+}
+
+.main-container,.cards{
+    flex-direction:column;
+}
+
+.cards,.buttons-container a{
+    color:white;
+}
+
+.cards:nth-child(3),.cards:nth-child(3) .buttons-container a{
+    color:black;
+}
+
+h3,p{
+    text-align: center;
+}
+
+.container{
+    padding-top: 130px;
+}
+
+.main-container,.container,.cards{
+    justify-content: center;
+    align-items: center;
+}
+
+.cards-container{
+    gap:80px;
+}
+
+.cards{
+    border-radius:8px;
+    height: 23rem;
+    width: 18rem;
+    box-shadow: .2px .2px 20px .2px rgb(236, 236, 236);
+    padding:37px 2px 2px 2px;
+}
+
+.cards:nth-child(1){
+    background: rgb(64, 8, 8);
+}
+
+.cards:nth-child(2){
+    background: rgb(22, 22, 22);
+}
+
+h3{
+    word-spacing:2px ;
+}
+
+span{
+    font-size: .9rem;
+    margin-top: -13px;
+    color:gray;
+}
+
+.icons-row{
+    margin: 5px 0px 0px 0px;
+    gap:20px;
+}
+
+.icons-row ion-icon{
+    font-size: 1.3rem;
+}
+
+img{
+    border: 3px solid white;
+    margin: -50px 0px 0px 0px;
+    border-radius: 200px;
+    width: 6rem;
+    height: auto;
+}
+
+.buttons-container{
+    gap:20px;
+}
+
+p{
+    line-height: 23px;
+    font-size: .9rem;
+}
+
+a{
+    font-family: 'Roboto';
+    text-decoration: none;
+}
+
+.buttons-container a{
+    border:2px solid white;
+    padding:4px 12px 4px 12px ;
+    font-size: .9rem;
+}
+
+.cards:nth-child(3){
+    background: white;
+}
+
+.cards:nth-child(3) .buttons-container a{
+    color:black;
+    border:2px solid rgb(66, 66, 66);
+}
+
+.cards:nth-child(3) img{
+    border: 3px solid black;
+}
