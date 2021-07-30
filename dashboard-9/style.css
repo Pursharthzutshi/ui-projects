@@ -1,0 +1,105 @@
+body{
+    font-family: 'Montserrat';
+}
+
+.main-container,.container,.dashboard,.left-sidebar,.box-container,.box,.sub-headings-rows,.view-button-row{
+    display:flex;
+}
+
+.sub-headings-rows{
+    justify-content: space-around;
+}
+
+.main-container,.container,.dashboard,.box-container,.view-button-row{
+    flex-direction: row;
+}
+
+.box,.left-sidebar{
+    flex-direction: column;
+}
+
+.dashboard{
+    gap:30px;
+    width:90rem;
+    height: 44rem;
+    box-shadow: .2px .2px 12px .2px lightgray;
+}
+
+.main-container,.container,.box,.left-sidebar{
+    align-items: center;
+}
+
+.main-container,.container,.left-sidebar{
+    justify-content: center;
+}
+
+.left-sidebar{
+    margin: 13px 0px 0px 30px;
+    box-shadow: .2px .2px 12px .2px lightgray;
+    height: 42rem;
+    width: 3.5rem;
+    border-radius:20px;
+    gap:60px;
+}
+
+.left-sidebar ion-icon{
+    font-size: 1.2rem;
+    color:white;
+    background: black;
+    box-shadow: .2px .2px 2px .2px gray;
+    padding:6px 5px 6px 5px;
+}
+
+.box-container{
+    margin-top: 20px;
+    gap:30px;
+}
+
+.view-all-button{
+    box-shadow: none;
+    font-size: .9rem;
+}
+
+.box{
+    width: 15rem;
+    height: 12rem;
+    box-shadow: .2px .2px 12px .2px rgb(230, 230, 230);
+}
+
+
+.box p{
+    font-size: 1.1rem;
+    font-family: 'Roboto';
+}
+
+.box span{
+    color:gray;
+    font-size: .8rem;
+    margin-top: -5px;
+}
+
+.view-button-row{
+    justify-content: flex-end;
+}
+
+a{
+    margin-top: 10px;
+    padding:5px 12px 5px 12px;
+    box-shadow: .2px .2px 2px .2px;
+    text-decoration: none;
+
+}
+
+.green-btn{
+    color:white;
+    background: rgb(4, 135, 4);
+}
+
+.red-btn{
+    color:white;
+    background: red;
+}
+
+.box ion-icon{
+    justify-content: flex-end;
+}
