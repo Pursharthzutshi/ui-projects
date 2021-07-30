@@ -1,11 +1,11 @@
 body{
-padding:0;
-margin: 0;
+    padding:0;
+    margin: 0;
     font-family: Montserrat;
 }
 
 .container,.cards,.inner-card-container,.box-container,.follow-row,.buttons-row{
-display: flex;
+    display: flex;
 }
 
 .container,.box-container,.follow-row,.buttons-row{
@@ -16,11 +16,11 @@ display: flex;
     background-image:linear-gradient(to left,rgba(92, 30, 115, 0.136),rgba(45, 2, 68, 0.707)),url('images/icon-images/ui-design.svg');
     clip-path: polygon(0% 0%,0% 100%,100% 82%,100% 0%);
     margin-top: -12.5px;
-margin-left: -12.5px;
-background-position: center;
-background-size: cover;
-height: 30vh;
-width: 108%;
+    margin-left: -12.5px;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    width: 108%;
 }
 
 .follow-row{
@@ -46,7 +46,7 @@ width: 108%;
 .name{
     line-height: 20px;
     font-size: 13px;
-border-radius: 200px;
+    border-radius: 200px;
     padding:7px 26px 8px 26px;
 }
 
@@ -55,10 +55,10 @@ border-radius: 200px;
     font-size: 14.3px;
     box-shadow: .2px .2px 6px .2px rgb(123, 0, 150);
     padding:10px;
-background-size: cover;
-background-position: center;
+    background-size: cover;
+    background-position: center;
     margin-top: -2px;
-line-height: 25px;
+    line-height: 25px;
 
 }
 
@@ -78,13 +78,13 @@ line-height: 25px;
 }
 
 .container{
-align-items: center;    
+    align-items: center;    
     padding-top: 35px;
- justify-content: center;
+    justify-content: center;
 }
 
 .card{
-color:black;
+    color:black;
     padding: 13px;
     box-shadow:.2px .2px 8px .2px rgb(159, 159, 159) ;
     background:linear-gradient(to left,rgba(244, 217, 250, 0.612),rgba(238, 205, 245, 0.36));
@@ -104,14 +104,14 @@ img{
 .name{
 
     letter-spacing:3px ;
-font-family: 'Lato';
+    font-family: 'Lato';
     text-align: center;
 }
 
 .profile-image{
     border:5px inset rgb(119, 24, 140);  
-      border-radius:200px;
-margin-top: -80px;
+    border-radius:200px;
+    margin-top: -80px;
     width:6rem;
     height: auto;
 }
@@ -121,7 +121,7 @@ margin-top: -80px;
 h2{
     line-height:20px ;
     font-size: 14px;
- text-align: center;
+    text-align: center;
 }
 
 .box{
@@ -131,7 +131,7 @@ h2{
     width:4rem;
     height: 4rem;
     background:linear-gradient(to left,rgb(123, 0, 150),rgba(95, 11, 197, 0.734));
-color: white;
+    color: white;
 }
 
 .icon-image{
@@ -140,7 +140,7 @@ color: white;
 }
 
 .buttons-row{
-padding-top: 8px;
+    padding-top: 8px;
     gap:50px;
 }
 
@@ -164,7 +164,7 @@ padding-top: 8px;
     text-decoration: none;
     color:white;
     border:4px inset rgba(126, 2, 154, 0.986);
-padding:8px 15px 6px 15px;
+    padding:8px 15px 6px 15px;
 }
 
 .buttons{
