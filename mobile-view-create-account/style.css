@@ -3,17 +3,28 @@ body{
     font-family: Montserrat;
 }
 
-.container,.mobile-view,.top-bar-row,.top-img-row,.buttons-container,.mobile-view-2{
+.container,.mobile-view,.top-bar-row,.top-img-row,.buttons-container,.mobile-view-2,.social-media-buttons-row,.input-column,.remember-row{
     display: flex;
 }
 
-.container,.top-bar-row,.top-img-row,.buttons-container,.mobile-view-2{
+.container,.top-bar-row,.top-img-row,.buttons-container,.remember-row{
     flex-direction: row;
+}
+
+.buttons-container{
+    justify-content: center;
+}
+
+.mobile-view,.social-media-buttons-row,.input-column,.mobile-view-2{
+    flex-direction: column;
+}
+
+.input-column{
+    gap:15px;
 }
 
 .mobile-view{
     padding:0px 15px 0px 16px;
-    flex-direction: column;
 }
 
 .main-container{
@@ -35,9 +46,33 @@ body{
 }
 
 .mobile-view{
-    background:linear-gradient(white,white,white);
     gap:8px;
-    width:20.5rem;
+    width:21.5rem;
+}
+
+.mobile-view .top-bar-section,.mobile-view-2 .top-bar-section{
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding:2px 12px 12px 2px;
+    width: 105.8%;
+    color:white;
+    background: linear-gradient(to left,rgb(10, 101, 157),rgb(17, 85, 154));
+}
+
+.mobile-view .top-bar-section{
+    height: 9.5rem;
+    margin-left: -18px;
+}
+
+.mobile-view-2 .top-bar-section{
+    margin-top: -5px;
+    height: 24.5rem;
+}
+
+.top-bar-section p{
+    line-height: 32px;
 }
 
 .top-bar-row{
@@ -54,11 +89,12 @@ body{
 }
 
 img{
-    width: 6rem;
+    width: 5rem;
     height: auto;
 }
 
 h3{
+    margin-top: -5px;
     text-align: center;
 }
 
@@ -69,12 +105,31 @@ h3{
     align-items: center;
 }
 
+.log-in-box{
+    margin-top: -150px;
+    width: 22rem;
+    height:15rem;
+    background: white;
+    box-shadow: .2px .2px 3px .2px rgb(138, 138, 138);
+}
+
+.log-in-box input{
+    width: 19rem;
+    margin-left: 15px;
+}
+
+.log-in-box .buttons-container{
+    width: 70%;
+    margin: 20px 0px 0px 50px;
+
+}
+
 input{
-    width: 90%;
+    width: 95%;
     outline: none;
     border:none;
-    padding:7px 2px 7px 8px;
-    border-bottom: 1px solid rgb(20, 86, 144);
+    padding:8px 2px 8px 13px;
+    background: whitesmoke;
 }
 
 input::placeholder{
@@ -97,13 +152,57 @@ p{
 }
 
 .buttons-container{
-
+    margin-top: 15px;
     border-radius: 8px;
     background: linear-gradient(to left,rgb(40, 145, 211),rgb(23, 117, 211));
     padding:6px 2px 6px 16px;
+    
 }
 
 .buttons-container a{
     color:white;
     text-decoration: none;
+}
+
+.social-media-buttons-row{
+    margin-top: -10px;
+    gap:20px;
+}
+
+.mobile-view-2 .social-media-buttons-row{
+    margin-top: 30px;
+}
+
+.social-media-buttons-row a{
+    text-align: center;
+    padding:10px 2px 10px 10px ;
+    text-decoration: none;
+    color:white;
+}
+
+.social-media-buttons-row a:nth-child(1){
+    background:linear-gradient(to left,rgb(202, 45, 5),rgb(196, 23, 46));
+}
+
+.social-media-buttons-row a:nth-child(2){
+    background:linear-gradient(to left,rgb(8, 115, 221),rgb(0, 149, 255));    
+}
+
+.remember-row p{
+    font-size: .9rem;
+    margin:0px 0px 0px -135px;
+}
+
+.remember-row input{
+    margin-left: -130px;
+}
+
+.forgot-password{
+    margin: 10px 0px 0px 40px;
+    font-size: .7rem;
+    text-decoration: none;
+}
+
+.forgot-password:hover{
+    text-decoration: underline;
 }
