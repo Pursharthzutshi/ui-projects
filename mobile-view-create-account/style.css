@@ -11,43 +11,36 @@ body{
     flex-direction: row;
 }
 
-.buttons-container{
-    justify-content: center;
-}
-
 .mobile-view,.social-media-buttons-row,.input-column,.mobile-view-2{
     flex-direction: column;
 }
 
-.input-column{
-    gap:15px;
+.mobile-view .top-bar-section,.mobile-view-2 .top-bar-section,.buttons-container a,.social-media-buttons-row a{
+    color:white;
 }
 
-.mobile-view{
-    padding:0px 15px 0px 16px;
+.buttons-container a,.social-media-buttons-row a,.forgot-password{
+    text-decoration: none;
 }
 
-.main-container{
-    gap:40px;
+.top-img-row,.main-container,.container,.buttons-container{
     justify-content: center;
 }
 
-.container{
-    gap:30px;
-    padding: 25px 0px 0px 0px;
-    justify-content: center;
+.social-media-buttons-row a,h3,p{
+    text-align: center;
 }
+
+.mobile-view,.mobile-view-2,.log-in-box{
+    background: white;
+}
+
 
 .mobile-view,.mobile-view-2{
     height:43.6rem;
     box-shadow: .2px .2px 5px .2px rgb(221, 218, 218);
     margin: -12px 0px 0px 0px;
     border-radius: 10px;
-}
-
-.mobile-view{
-    gap:8px;
-    width:21.5rem;
 }
 
 .mobile-view .top-bar-section,.mobile-view-2 .top-bar-section{
@@ -57,8 +50,22 @@ body{
     border-top-left-radius: 8px;
     padding:2px 12px 12px 2px;
     width: 105.8%;
-    color:white;
     background: linear-gradient(to left,rgb(10, 101, 157),rgb(17, 85, 154));
+}
+
+.main-container{
+    gap:40px;
+}
+
+.container{
+    gap:30px;
+    padding: 25px 0px 0px 0px;
+}
+
+.mobile-view{
+    gap:8px;
+    width:21.5rem;
+    padding:0px 15px 0px 16px;
 }
 
 .mobile-view .top-bar-section{
@@ -71,9 +78,10 @@ body{
     height: 24.5rem;
 }
 
-.top-bar-section p{
-    line-height: 32px;
+h3{
+    margin-top: -5px;
 }
+
 
 .top-bar-row{
     justify-content: space-between;
@@ -84,44 +92,26 @@ body{
     font-size: 1.2rem;
 }
 
-.top-img-row{
-    justify-content: center;
+.social-media-buttons-row{
+    margin-top: -10px;
+    gap:20px;
 }
 
-img{
-    width: 5rem;
-    height: auto;
+.social-media-buttons-row a{
+    padding:10px 2px 10px 10px ;
+    box-shadow: .2px .2px 12px .2px rgb(194, 194, 194);
 }
 
-h3{
-    margin-top: -5px;
-    text-align: center;
+.social-media-buttons-row a:nth-child(1){
+    background:linear-gradient(to left,rgb(202, 45, 5),rgb(196, 23, 46));
 }
 
-.mobile-view-2{
-    background:linear-gradient(white,white,white);
-    width:22rem;
-    padding:2px 12px 2px 12px;
-    align-items: center;
+.social-media-buttons-row a:nth-child(2){
+    background:linear-gradient(to left,rgb(8, 115, 221),rgb(0, 149, 255));    
 }
 
-.log-in-box{
-    margin-top: -150px;
-    width: 22rem;
-    height:15rem;
-    background: white;
-    box-shadow: .2px .2px 3px .2px rgb(138, 138, 138);
-}
-
-.log-in-box input{
-    width: 19rem;
-    margin-left: 15px;
-}
-
-.log-in-box .buttons-container{
-    width: 70%;
-    margin: 20px 0px 0px 50px;
-
+.input-column{
+    gap:15px;
 }
 
 input{
@@ -142,8 +132,43 @@ input::placeholder{
     border:1px solid rgb(20, 86, 144);
 }
 
-p{
-    text-align: center;
+.buttons-container{
+    margin-top: 15px;
+    border-radius: 8px;
+    background: linear-gradient(to left,rgb(40, 145, 211),rgb(23, 117, 211));
+    padding:6px 2px 6px 16px;
+}
+
+img{
+    width: 5rem;
+    height: auto;
+}
+
+.mobile-view-2{
+    width:22rem;
+    padding:2px 12px 2px 12px;
+    align-items: center;
+}
+
+.top-bar-section p{
+    line-height: 32px;
+}
+
+.log-in-box{
+    margin-top: -150px;
+    width: 22rem;
+    height:15rem;
+    box-shadow: .2px .2px 3px .2px rgb(138, 138, 138);
+}
+
+.log-in-box input{
+    width: 19rem;
+    margin-left: 15px;
+}
+
+.log-in-box .buttons-container{
+    width: 70%;
+    margin: 20px 0px 0px 50px;
 }
 
 .img-box p{
@@ -151,41 +176,8 @@ p{
     margin-top: 20px;
 }
 
-.buttons-container{
-    margin-top: 15px;
-    border-radius: 8px;
-    background: linear-gradient(to left,rgb(40, 145, 211),rgb(23, 117, 211));
-    padding:6px 2px 6px 16px;
-    
-}
-
-.buttons-container a{
-    color:white;
-    text-decoration: none;
-}
-
-.social-media-buttons-row{
-    margin-top: -10px;
-    gap:20px;
-}
-
 .mobile-view-2 .social-media-buttons-row{
     margin-top: 30px;
-}
-
-.social-media-buttons-row a{
-    text-align: center;
-    padding:10px 2px 10px 10px ;
-    text-decoration: none;
-    color:white;
-}
-
-.social-media-buttons-row a:nth-child(1){
-    background:linear-gradient(to left,rgb(202, 45, 5),rgb(196, 23, 46));
-}
-
-.social-media-buttons-row a:nth-child(2){
-    background:linear-gradient(to left,rgb(8, 115, 221),rgb(0, 149, 255));    
 }
 
 .remember-row p{
@@ -200,7 +192,6 @@ p{
 .forgot-password{
     margin: 10px 0px 0px 40px;
     font-size: .7rem;
-    text-decoration: none;
 }
 
 .forgot-password:hover{
